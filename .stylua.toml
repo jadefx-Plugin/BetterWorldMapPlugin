@@ -1,0 +1,6 @@
+column_width = 100
+indent_type = "Spaces"
+indent_width = 4
+collapse_simple_statement = "Never"
+syntax = "Lua54"
+line_endings = "Windows"

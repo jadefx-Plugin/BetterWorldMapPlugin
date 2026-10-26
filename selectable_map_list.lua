@@ -1,0 +1,58 @@
+-- selectable_map_list.lua
+-- Used by: map_areas.lua.
+-- Builds the dropdown while keeping hidden dungeon maps reachable through links.
+
+-- Original native map-selector choices, separate from the supported area catalogue.
+-- Hidden maps (including 164, 165 and 753) stay available to map_areas.Get/Find and
+-- named entrance links, but are never added to dropdown choices. New area support
+-- is hidden by default: add an ID here only if it belongs in the public selector.
+return {
+    28,
+    31,
+    17,
+    18,
+    12,
+    1,
+    26,
+    21,
+    23,
+    13,
+    19,
+    5,
+    4,
+    20,
+    27,
+    22,
+    9,
+    24,
+    30,
+    25,
+    15,
+    16,
+    3,
+    0,
+    8,
+    719,
+    14,
+    29,
+    2,
+    6,
+    118,
+    35,
+    36,
+    39,
+    40,
+    43,
+    41,
+    45,
+    42,
+    231,
+    682,
+    693,
+    707,
+    718,
+    735,
+    742,
+    758,
+    762,
+}
