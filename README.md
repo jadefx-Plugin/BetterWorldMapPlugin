@@ -1,3 +1,6 @@
+Feel free to do what you want with the code associated with this release, feed it to AI, mess around with it. use code. its all free to everyone, if you want to credit me in your projects for used code go ahead, if not i could care less.
+
+
 # Better World Map
 
 A resizable world map for RuneScape, with monster and NPC searches, teleport destinations, dungeon links, quest information and drop tables.
