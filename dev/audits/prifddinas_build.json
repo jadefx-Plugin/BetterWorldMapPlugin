@@ -1,0 +1,13 @@
+{
+  "area": 231,
+  "bounds": {
+    "x": 2048,
+    "z": 3264,
+    "w": 256,
+    "h": 192
+  },
+  "floor": 1,
+  "floorPaints": 17136,
+  "walls": 2994,
+  "scenerySprites": 79
+}

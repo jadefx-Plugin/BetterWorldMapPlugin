@@ -1,0 +1,5235 @@
+{
+  "scope": "All custom teleport markers currently bundled; map validity is not proof of an exact landing tile.",
+  "total": 562,
+  "verificationCounts": {
+    "destination-area reference; exact landing not verified": 516,
+    "matches native cached spell destination": 35,
+    "matches native elder-tree footprint; adjacent landing not verified": 11
+  },
+  "corrections": [
+    {
+      "destination": "Elder: east Sorcerers Tower",
+      "old": [
+        2736,
+        3397
+      ],
+      "new": [
+        2737,
+        3404
+      ],
+      "nativeObjectID": 87520,
+      "distanceTiles": 7.1,
+      "precision": "tree footprint; not a verified teleport landing tile"
+    },
+    {
+      "destination": "Elder: south Yanille",
+      "old": [
+        2580,
+        3050
+      ],
+      "new": [
+        2574,
+        3060
+      ],
+      "nativeObjectID": 87516,
+      "distanceTiles": 11.7,
+      "precision": "tree footprint; not a verified teleport landing tile"
+    },
+    {
+      "destination": "Elder: Tree Gnome Stronghold",
+      "old": [
+        2460,
+        3410
+      ],
+      "new": [
+        2428,
+        3455
+      ],
+      "nativeObjectID": 87514,
+      "distanceTiles": 55.2,
+      "precision": "tree footprint; not a verified teleport landing tile"
+    },
+    {
+      "destination": "Elder: south Draynor",
+      "old": [
+        3100,
+        3210
+      ],
+      "new": [
+        3097,
+        3215
+      ],
+      "nativeObjectID": 87528,
+      "distanceTiles": 5.8,
+      "precision": "tree footprint; not a verified teleport landing tile"
+    },
+    {
+      "destination": "Elder: Falador Farm",
+      "old": [
+        3030,
+        3300
+      ],
+      "new": [
+        3056,
+        3320
+      ],
+      "nativeObjectID": 87524,
+      "distanceTiles": 32.8,
+      "precision": "tree footprint; not a verified teleport landing tile"
+    },
+    {
+      "destination": "Elder: south Varrock",
+      "old": [
+        3190,
+        3350
+      ],
+      "new": [
+        3262,
+        3370
+      ],
+      "nativeObjectID": 87530,
+      "distanceTiles": 74.7,
+      "precision": "tree footprint; not a verified teleport landing tile"
+    },
+    {
+      "destination": "Elder: west Lletya",
+      "old": [
+        2300,
+        3150
+      ],
+      "new": [
+        2298,
+        3147
+      ],
+      "nativeObjectID": 87518,
+      "distanceTiles": 3.6,
+      "precision": "tree footprint; not a verified teleport landing tile"
+    },
+    {
+      "destination": "Elder / eternal magic: Piscatoris",
+      "old": [
+        2325,
+        3588
+      ],
+      "new": [
+        2323,
+        3601
+      ],
+      "nativeObjectID": 87512,
+      "distanceTiles": 13.2,
+      "precision": "tree footprint; not a verified teleport landing tile"
+    },
+    {
+      "destination": "Elder: south Edgeville",
+      "old": [
+        3070,
+        3445
+      ],
+      "new": [
+        3093,
+        3454
+      ],
+      "nativeObjectID": 87522,
+      "distanceTiles": 24.7,
+      "precision": "tree footprint; not a verified teleport landing tile"
+    },
+    {
+      "destination": "Elder: north Rimmington",
+      "old": [
+        2940,
+        3250
+      ],
+      "new": [
+        2931,
+        3230
+      ],
+      "nativeObjectID": 87526,
+      "distanceTiles": 21.9,
+      "precision": "tree footprint; not a verified teleport landing tile"
+    },
+    {
+      "destination": "Elder: Fort Forinthry Grove",
+      "old": [
+        3360,
+        3530
+      ],
+      "new": [
+        3379,
+        3545
+      ],
+      "nativeObjectID": 125533,
+      "distanceTiles": 24.2,
+      "precision": "tree footprint; not a verified teleport landing tile"
+    }
+  ],
+  "markers": [
+    {
+      "index": 1,
+      "label": "Amulet of glory — Edgeville",
+      "area": 28,
+      "x": 3087,
+      "z": 3496,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 2,
+      "label": "Amulet of glory — Karamja",
+      "area": 28,
+      "x": 2918,
+      "z": 3176,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 3,
+      "label": "Amulet of glory — Draynor Village",
+      "area": 28,
+      "x": 3104,
+      "z": 3250,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 4,
+      "label": "Amulet of glory — Al Kharid / Shantay Pass",
+      "area": 28,
+      "x": 3305,
+      "z": 3125,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 5,
+      "label": "Combat bracelet — Warriors' Guild",
+      "area": 28,
+      "x": 2882,
+      "z": 3546,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 6,
+      "label": "Combat bracelet — Champions' Guild",
+      "area": 28,
+      "x": 3191,
+      "z": 3368,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 7,
+      "label": "Combat bracelet — Edgeville Monastery",
+      "area": 28,
+      "x": 3052,
+      "z": 3487,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 8,
+      "label": "Combat bracelet — Ranging Guild",
+      "area": 28,
+      "x": 2658,
+      "z": 3438,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 9,
+      "label": "Skills necklace — Fishing Guild",
+      "area": 28,
+      "x": 2610,
+      "z": 3390,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 10,
+      "label": "Skills necklace — Mining Guild",
+      "area": 28,
+      "x": 3020,
+      "z": 3338,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 11,
+      "label": "Skills necklace — Crafting Guild",
+      "area": 28,
+      "x": 2936,
+      "z": 3290,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 12,
+      "label": "Skills necklace — Cooks' Guild",
+      "area": 28,
+      "x": 3141,
+      "z": 3440,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 13,
+      "label": "Skills necklace — Invention Guild",
+      "area": 28,
+      "x": 3056,
+      "z": 3443,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 14,
+      "label": "Skills necklace — Farming Guild",
+      "area": 28,
+      "x": 2649,
+      "z": 3340,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 15,
+      "label": "Skills necklace — Runecrafting Guild / Wizards Tower",
+      "area": 28,
+      "x": 3106,
+      "z": 3162,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 16,
+      "label": "Ring of duelling — Het's Oasis",
+      "area": 28,
+      "x": 3316,
+      "z": 3235,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 17,
+      "label": "Ring of duelling — Castle Wars",
+      "area": 28,
+      "x": 2440,
+      "z": 3090,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 18,
+      "label": "Ring of duelling — Warforge",
+      "area": 28,
+      "x": 2413,
+      "z": 2847,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 19,
+      "label": "Ring of duelling — Fist of Guthix entrance",
+      "area": 28,
+      "x": 2970,
+      "z": 3407,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 20,
+      "label": "Games necklace — Troll Invasion",
+      "area": 28,
+      "x": 2870,
+      "z": 3550,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 21,
+      "label": "Games necklace — Barbarian Outpost",
+      "area": 28,
+      "x": 2533,
+      "z": 3575,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 22,
+      "label": "Games necklace — Gamers Grotto entrance",
+      "area": 28,
+      "x": 2970,
+      "z": 3407,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 23,
+      "label": "Games necklace — Burgh de Rott",
+      "area": 28,
+      "x": 3498,
+      "z": 3220,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 24,
+      "label": "Ring of Wealth — Miscellania",
+      "area": 28,
+      "x": 2535,
+      "z": 3868,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 25,
+      "label": "Ring of Wealth — Grand Exchange",
+      "area": 28,
+      "x": 3164,
+      "z": 3479,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Local item options and public destination-area references"
+    },
+    {
+      "index": 26,
+      "label": "Annakarl Teleport — Annakarl",
+      "area": 28,
+      "x": 3288,
+      "z": 3886,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14821"
+    },
+    {
+      "index": 27,
+      "label": "Ape Atoll Teleport — Ape Atoll",
+      "area": 28,
+      "x": 2797,
+      "z": 2798,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14781"
+    },
+    {
+      "index": 28,
+      "label": "Ardougne Teleport — Ardougne",
+      "area": 28,
+      "x": 2661,
+      "z": 3302,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14768"
+    },
+    {
+      "index": 29,
+      "label": "Barbarian Teleport — Barbarian",
+      "area": 28,
+      "x": 2543,
+      "z": 3569,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14841"
+    },
+    {
+      "index": 30,
+      "label": "Camelot Teleport — Camelot",
+      "area": 28,
+      "x": 2757,
+      "z": 3478,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14763"
+    },
+    {
+      "index": 31,
+      "label": "Carrallangar Teleport — Carrallangar",
+      "area": 28,
+      "x": 3222,
+      "z": 3666,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14818"
+    },
+    {
+      "index": 32,
+      "label": "Catherby Teleport — Catherby",
+      "area": 28,
+      "x": 2790,
+      "z": 3452,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14860"
+    },
+    {
+      "index": 33,
+      "label": "Dareeyak Teleport — Dareeyak",
+      "area": 28,
+      "x": 2968,
+      "z": 3696,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14815"
+    },
+    {
+      "index": 34,
+      "label": "Eastern Anachronia Teleport — Eastern Anachronia",
+      "area": 28,
+      "x": 4064,
+      "z": 4251,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 51277"
+    },
+    {
+      "index": 35,
+      "label": "Falador Teleport — Falador",
+      "area": 28,
+      "x": 2965,
+      "z": 3378,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14759"
+    },
+    {
+      "index": 36,
+      "label": "Fishing Guild Teleport — Fishing Guild",
+      "area": 28,
+      "x": 2613,
+      "z": 3383,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14857"
+    },
+    {
+      "index": 37,
+      "label": "Ghorrock Teleport — Ghorrock",
+      "area": 28,
+      "x": 2976,
+      "z": 3872,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14824"
+    },
+    {
+      "index": 38,
+      "label": "God Wars Dungeon Teleport — God Wars Dungeon",
+      "area": 28,
+      "x": 2910,
+      "z": 3713,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 28493"
+    },
+    {
+      "index": 39,
+      "label": "Ice Plateau Teleport — Ice Plateau",
+      "area": 28,
+      "x": 2975,
+      "z": 3938,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14863"
+    },
+    {
+      "index": 40,
+      "label": "Kharyrll Teleport — Kharyrll",
+      "area": 28,
+      "x": 3501,
+      "z": 3484,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14809"
+    },
+    {
+      "index": 41,
+      "label": "Khazard Teleport — Khazard",
+      "area": 28,
+      "x": 2636,
+      "z": 3167,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14847"
+    },
+    {
+      "index": 42,
+      "label": "Lassar Teleport — Lassar",
+      "area": 28,
+      "x": 3004,
+      "z": 3470,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14812"
+    },
+    {
+      "index": 43,
+      "label": "Lumbridge Teleport — Lumbridge",
+      "area": 28,
+      "x": 3219,
+      "z": 3248,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14756"
+    },
+    {
+      "index": 44,
+      "label": "Moonclan Teleport — Moonclan",
+      "area": 28,
+      "x": 2114,
+      "z": 3915,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14831"
+    },
+    {
+      "index": 45,
+      "label": "Mountain Camp Teleport — Mountain Camp",
+      "area": 28,
+      "x": 2785,
+      "z": 3664,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 51275"
+    },
+    {
+      "index": 46,
+      "label": "North Ardougne Teleport — North Ardougne",
+      "area": 28,
+      "x": 2665,
+      "z": 3375,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14843"
+    },
+    {
+      "index": 47,
+      "label": "North-western Anachronia Teleport — North-western Anachronia",
+      "area": 28,
+      "x": 3780,
+      "z": 4414,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 51276"
+    },
+    {
+      "index": 48,
+      "label": "Northern Lost Grove Teleport — Northern Lost Grove",
+      "area": 28,
+      "x": 1980,
+      "z": 3229,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 51278"
+    },
+    {
+      "index": 49,
+      "label": "Ourania Teleport — Ourania",
+      "area": 28,
+      "x": 2467,
+      "z": 3245,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14833"
+    },
+    {
+      "index": 50,
+      "label": "Senntisten Teleport — Senntisten",
+      "area": 28,
+      "x": 3377,
+      "z": 3402,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14806"
+    },
+    {
+      "index": 51,
+      "label": "South Falador Teleport — South Falador",
+      "area": 28,
+      "x": 3055,
+      "z": 3310,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14836"
+    },
+    {
+      "index": 52,
+      "label": "South Feldip Hills Teleport — South Feldip Hills",
+      "area": 28,
+      "x": 2413,
+      "z": 2847,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14744"
+    },
+    {
+      "index": 53,
+      "label": "Taverley Teleport — Taverley",
+      "area": 28,
+      "x": 2912,
+      "z": 3423,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 11762"
+    },
+    {
+      "index": 54,
+      "label": "The Heart Teleport — The Heart",
+      "area": 28,
+      "x": 3378,
+      "z": 2876,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 33163"
+    },
+    {
+      "index": 55,
+      "label": "Trollheim Farm Teleport — Trollheim Farm",
+      "area": 28,
+      "x": 2817,
+      "z": 3676,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14867"
+    },
+    {
+      "index": 56,
+      "label": "Trollheim Teleport — Trollheim",
+      "area": 28,
+      "x": 2882,
+      "z": 3668,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14778"
+    },
+    {
+      "index": 57,
+      "label": "Varrock Teleport — Varrock",
+      "area": 28,
+      "x": 3212,
+      "z": 3434,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14753"
+    },
+    {
+      "index": 58,
+      "label": "Waterbirth Teleport — Waterbirth",
+      "area": 28,
+      "x": 2546,
+      "z": 3756,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 14837"
+    },
+    {
+      "index": 59,
+      "label": "Wendlewick Teleport — Wendlewick",
+      "area": 28,
+      "x": 4185,
+      "z": 3346,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 53006"
+    },
+    {
+      "index": 60,
+      "label": "Western Kharazi Jungle Teleport — Western Kharazi Jungle",
+      "area": 28,
+      "x": 2803,
+      "z": 2917,
+      "verification": "matches native cached spell destination",
+      "source": "Native ability struct 51274"
+    },
+    {
+      "index": 61,
+      "label": "Varrock teleport — Varrock",
+      "area": 28,
+      "x": 3212,
+      "z": 3434,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14753"
+    },
+    {
+      "index": 62,
+      "label": "Wendlewick teleport — Wendlewick",
+      "area": 28,
+      "x": 4185,
+      "z": 3346,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 53006"
+    },
+    {
+      "index": 63,
+      "label": "Lumbridge teleport — Lumbridge",
+      "area": 28,
+      "x": 3219,
+      "z": 3248,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14756"
+    },
+    {
+      "index": 64,
+      "label": "Falador teleport — Falador",
+      "area": 28,
+      "x": 2965,
+      "z": 3378,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14759"
+    },
+    {
+      "index": 65,
+      "label": "Camelot teleport — Camelot",
+      "area": 28,
+      "x": 2757,
+      "z": 3478,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14763"
+    },
+    {
+      "index": 66,
+      "label": "Ardougne teleport — Ardougne",
+      "area": 28,
+      "x": 2661,
+      "z": 3302,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14768"
+    },
+    {
+      "index": 67,
+      "label": "North-western anachronia teleport — North-western Anachronia",
+      "area": 28,
+      "x": 3780,
+      "z": 4414,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 51276"
+    },
+    {
+      "index": 68,
+      "label": "Eastern anachronia teleport — Eastern Anachronia",
+      "area": 28,
+      "x": 4064,
+      "z": 4251,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 51277"
+    },
+    {
+      "index": 69,
+      "label": "Northern lost grove teleport — Northern Lost Grove",
+      "area": 28,
+      "x": 1980,
+      "z": 3229,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 51278"
+    },
+    {
+      "index": 70,
+      "label": "The Heart teleport — The Heart",
+      "area": 28,
+      "x": 3378,
+      "z": 2876,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 33163"
+    },
+    {
+      "index": 71,
+      "label": "Senntisten teleport — Senntisten",
+      "area": 28,
+      "x": 3377,
+      "z": 3402,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14806"
+    },
+    {
+      "index": 72,
+      "label": "Kharyrll teleport — Kharyrll",
+      "area": 28,
+      "x": 3501,
+      "z": 3484,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14809"
+    },
+    {
+      "index": 73,
+      "label": "Lassar teleport — Lassar",
+      "area": 28,
+      "x": 3004,
+      "z": 3470,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14812"
+    },
+    {
+      "index": 74,
+      "label": "Dareeyak teleport — Dareeyak",
+      "area": 28,
+      "x": 2968,
+      "z": 3696,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14815"
+    },
+    {
+      "index": 75,
+      "label": "Carrallangar teleport — Carrallangar",
+      "area": 28,
+      "x": 3222,
+      "z": 3666,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14818"
+    },
+    {
+      "index": 76,
+      "label": "Annakarl teleport — Annakarl",
+      "area": 28,
+      "x": 3288,
+      "z": 3886,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14821"
+    },
+    {
+      "index": 77,
+      "label": "Ghorrock teleport — Ghorrock",
+      "area": 28,
+      "x": 2976,
+      "z": 3872,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14824"
+    },
+    {
+      "index": 78,
+      "label": "Moonclan teleport — Moonclan",
+      "area": 28,
+      "x": 2114,
+      "z": 3915,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14831"
+    },
+    {
+      "index": 79,
+      "label": "Ourania teleport — Ourania",
+      "area": 28,
+      "x": 2467,
+      "z": 3245,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14833"
+    },
+    {
+      "index": 80,
+      "label": "South falador teleport — South Falador",
+      "area": 28,
+      "x": 3055,
+      "z": 3310,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14836"
+    },
+    {
+      "index": 81,
+      "label": "Waterbirth teleport — Waterbirth",
+      "area": 28,
+      "x": 2546,
+      "z": 3756,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14837"
+    },
+    {
+      "index": 82,
+      "label": "Barbarian teleport — Barbarian",
+      "area": 28,
+      "x": 2543,
+      "z": 3569,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14841"
+    },
+    {
+      "index": 83,
+      "label": "North ardougne teleport — North Ardougne",
+      "area": 28,
+      "x": 2665,
+      "z": 3375,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14843"
+    },
+    {
+      "index": 84,
+      "label": "Western kharazi jungle teleport — Western Kharazi Jungle",
+      "area": 28,
+      "x": 2803,
+      "z": 2917,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 51274"
+    },
+    {
+      "index": 85,
+      "label": "Mountain camp teleport — Mountain Camp",
+      "area": 28,
+      "x": 2785,
+      "z": 3664,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 51275"
+    },
+    {
+      "index": 86,
+      "label": "Khazard teleport — Khazard",
+      "area": 28,
+      "x": 2636,
+      "z": 3167,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14847"
+    },
+    {
+      "index": 87,
+      "label": "Fishing guild teleport — Fishing Guild",
+      "area": 28,
+      "x": 2613,
+      "z": 3383,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14857"
+    },
+    {
+      "index": 88,
+      "label": "Catherby teleport — Catherby",
+      "area": 28,
+      "x": 2790,
+      "z": 3452,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14860"
+    },
+    {
+      "index": 89,
+      "label": "Ice plateau teleport — Ice Plateau",
+      "area": 28,
+      "x": 2975,
+      "z": 3938,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14863"
+    },
+    {
+      "index": 90,
+      "label": "Trollheim farm teleport — Trollheim Farm",
+      "area": 28,
+      "x": 2817,
+      "z": 3676,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "Native tablet enum 8083; matching ability struct 14867"
+    },
+    {
+      "index": 91,
+      "label": "Slayer cape — Turael / Spria",
+      "area": 28,
+      "x": 2890,
+      "z": 3548,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 92,
+      "label": "Slayer cape — Jacquelyn",
+      "area": 28,
+      "x": 3221,
+      "z": 3224,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 93,
+      "label": "Slayer cape — Vannaka",
+      "area": 28,
+      "x": 3091,
+      "z": 3478,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 94,
+      "label": "Slayer cape — The Raptor",
+      "area": 28,
+      "x": 3292,
+      "z": 3544,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 95,
+      "label": "Slayer cape — Mazchna / Achtryn",
+      "area": 28,
+      "x": 3512,
+      "z": 3509,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 96,
+      "label": "Slayer cape — Chaeldar",
+      "area": 1,
+      "x": 2445,
+      "z": 4431,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 97,
+      "label": "Slayer cape — Sumona",
+      "area": 28,
+      "x": 3358,
+      "z": 2993,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 98,
+      "label": "Slayer cape — Duradel / Lapalok",
+      "area": 28,
+      "x": 2869,
+      "z": 2982,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 99,
+      "label": "Slayer cape — Kuradal",
+      "area": 36,
+      "x": 138,
+      "z": 65,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 100,
+      "label": "Slayer cape — Morvran",
+      "area": 231,
+      "x": 2196,
+      "z": 3338,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 101,
+      "label": "Slayer cape — Laniakea",
+      "area": 28,
+      "x": 4095,
+      "z": 4047,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Laniakea; native Orthen Oubliette entrance reference"
+    },
+    {
+      "index": 102,
+      "label": "Slayer cape — Mandrith",
+      "area": 28,
+      "x": 3051,
+      "z": 3953,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 103,
+      "label": "Dungeoneering cape — Edgeville chaos druids",
+      "area": 31,
+      "x": 3132,
+      "z": 9935,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 104,
+      "label": "Dungeoneering cape — Dwarven Mine resource dungeon",
+      "area": 18,
+      "x": 3031,
+      "z": 9772,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 105,
+      "label": "Dungeoneering cape — Edgeville hill giants",
+      "area": 31,
+      "x": 3116,
+      "z": 9830,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 106,
+      "label": "Dungeoneering cape — Karamja Volcano resource dungeon",
+      "area": 13,
+      "x": 285,
+      "z": 149,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 107,
+      "label": "Dungeoneering cape — Daemonheim Peninsula Island",
+      "area": 28,
+      "x": 3514,
+      "z": 3666,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 108,
+      "label": "Dungeoneering cape — Mining Guild resource dungeon",
+      "area": 18,
+      "x": 3022,
+      "z": 9742,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 109,
+      "label": "Dungeoneering cape — Braindeath Island Rum-geon",
+      "area": 19,
+      "x": 2147,
+      "z": 5122,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 110,
+      "label": "Dungeoneering cape — Taverley hellhound resource dungeon",
+      "area": 17,
+      "x": 2853,
+      "z": 9841,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 111,
+      "label": "Dungeoneering cape — Taverley blue dragon resource dungeon",
+      "area": 17,
+      "x": 2912,
+      "z": 9810,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 112,
+      "label": "Dungeoneering cape — Varrock Sewers resource dungeon",
+      "area": 31,
+      "x": 3164,
+      "z": 9878,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 113,
+      "label": "Dungeoneering cape — Dragontooth Island resource dungeon",
+      "area": 28,
+      "x": 3808,
+      "z": 3534,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 114,
+      "label": "Dungeoneering cape — Chaos Tunnels resource dungeon",
+      "area": 23,
+      "x": 3144,
+      "z": 5545,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 115,
+      "label": "Dungeoneering cape — Al Kharid resource dungeon",
+      "area": 28,
+      "x": 3297,
+      "z": 3307,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 116,
+      "label": "Dungeoneering cape — Brimhaven Dungeon resource dungeon",
+      "area": 13,
+      "x": 85,
+      "z": 96,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 117,
+      "label": "Dungeoneering cape — Polypore Dungeon resource dungeon",
+      "area": 28,
+      "x": 3408,
+      "z": 3326,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 118,
+      "label": "Dungeoneering cape — Asgarnian Ice resource dungeon",
+      "area": 25,
+      "x": 3007,
+      "z": 9550,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 119,
+      "label": "Dungeoneering cape — Kalgerion resource dungeon",
+      "area": 28,
+      "x": 3402,
+      "z": 3665,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 120,
+      "label": "Dungeoneering cape — Morytania Slayer Tower dungeon",
+      "area": 28,
+      "x": 3434,
+      "z": 3531,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 121,
+      "label": "Dungeoneering cape — Gorajo Hoardstalker Dungeon",
+      "area": 231,
+      "x": 2243,
+      "z": 3308,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 Dungeoneering cape destination list; destination-area reference"
+    },
+    {
+      "index": 122,
+      "label": "Dungeoneering cape — Edimmu resource dungeon",
+      "area": 231,
+      "x": 2215,
+      "z": 3380,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 Dungeoneering cape destination list; destination-area reference"
+    },
+    {
+      "index": 123,
+      "label": "Dungeoneering cape — Baxtorian Falls resource dungeon",
+      "area": 28,
+      "x": 2512,
+      "z": 3476,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 Dungeoneering cape destination list; destination-area reference"
+    },
+    {
+      "index": 124,
+      "label": "Traveller's necklace — Wizards Tower",
+      "area": 28,
+      "x": 3106,
+      "z": 3162,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 125,
+      "label": "Traveller's necklace — Outpost",
+      "area": 28,
+      "x": 2435,
+      "z": 3349,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 126,
+      "label": "Traveller's necklace — Desert eagles",
+      "area": 28,
+      "x": 3402,
+      "z": 3157,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 127,
+      "label": "Enlightened amulet — Lumbridge Swamp",
+      "area": 28,
+      "x": 3240,
+      "z": 3150,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 128,
+      "label": "Enlightened amulet — Graveyard of Shadows",
+      "area": 28,
+      "x": 3165,
+      "z": 3670,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 129,
+      "label": "Enlightened amulet — Desert Bandit Camp",
+      "area": 28,
+      "x": 3175,
+      "z": 2977,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 130,
+      "label": "Dig Site pendant — Dig Site",
+      "area": 28,
+      "x": 3358,
+      "z": 3428,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 131,
+      "label": "Ring of Fortune — Miscellania",
+      "area": 28,
+      "x": 2535,
+      "z": 3868,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 132,
+      "label": "Ring of Fortune — Grand Exchange",
+      "area": 28,
+      "x": 3164,
+      "z": 3479,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 133,
+      "label": "Luck of the Dwarves — Miscellania",
+      "area": 28,
+      "x": 2535,
+      "z": 3868,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 134,
+      "label": "Luck of the Dwarves — Grand Exchange",
+      "area": 28,
+      "x": 3164,
+      "z": 3479,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 135,
+      "label": "Luck of the Dwarves — Keldagrim",
+      "area": 21,
+      "x": 21,
+      "z": 159,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 136,
+      "label": "Hazelmere's signet ring — Miscellania",
+      "area": 28,
+      "x": 2535,
+      "z": 3868,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 137,
+      "label": "Hazelmere's signet ring — Grand Exchange",
+      "area": 28,
+      "x": 3164,
+      "z": 3479,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 138,
+      "label": "Hazelmere's signet ring — Keldagrim",
+      "area": 21,
+      "x": 21,
+      "z": 159,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 139,
+      "label": "Hazelmere's signet ring — Grand Tree",
+      "area": 28,
+      "x": 2465,
+      "z": 3495,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 140,
+      "label": "Ring of slaying — Sumona",
+      "area": 28,
+      "x": 3358,
+      "z": 2993,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 141,
+      "label": "Ring of slaying — Slayer Tower",
+      "area": 28,
+      "x": 3434,
+      "z": 3531,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 142,
+      "label": "Ring of slaying — Fremennik Slayer Dungeon",
+      "area": 28,
+      "x": 2794,
+      "z": 3615,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 143,
+      "label": "Ring of slaying — Tarn entrance",
+      "area": 28,
+      "x": 3440,
+      "z": 3190,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 144,
+      "label": "Ferocious ring — Kuradal",
+      "area": 36,
+      "x": 163,
+      "z": 49,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 145,
+      "label": "Ferocious ring — Morvran",
+      "area": 231,
+      "x": 2196,
+      "z": 3338,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 146,
+      "label": "Delver's anklet — Polypore entrance",
+      "area": 28,
+      "x": 3408,
+      "z": 3326,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 147,
+      "label": "Delver's anklet — Brimhaven entrance",
+      "area": 28,
+      "x": 2744,
+      "z": 3152,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 148,
+      "label": "Delver's anklet — Fremennik Slayer Dungeon",
+      "area": 28,
+      "x": 2794,
+      "z": 3615,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 149,
+      "label": "Kethsi ring — Adamant dragons access",
+      "area": 28,
+      "x": 2744,
+      "z": 3152,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 150,
+      "label": "Kethsi ring — Rune dragons access",
+      "area": 28,
+      "x": 2404,
+      "z": 3372,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 151,
+      "label": "Passing bracelet — Um Hanging Gardens",
+      "area": 742,
+      "x": 1085,
+      "z": 1835,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Passing_bracelet"
+    },
+    {
+      "index": 152,
+      "label": "Passing bracelet — Um Haunt on the Hill",
+      "area": 742,
+      "x": 862,
+      "z": 1830,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Passing_bracelet"
+    },
+    {
+      "index": 153,
+      "label": "Passing bracelet — Um Reflection Pool",
+      "area": 742,
+      "x": 1137,
+      "z": 1880,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Passing_bracelet"
+    },
+    {
+      "index": 154,
+      "label": "Explorer's ring 3 / 4 — Cabbage patch",
+      "area": 28,
+      "x": 3053,
+      "z": 3288,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 155,
+      "label": "Karamja gloves 3 / 4 — Shilo Village",
+      "area": 28,
+      "x": 2825,
+      "z": 2990,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 156,
+      "label": "Fremennik sea boots 4 — Rellekka",
+      "area": 28,
+      "x": 2660,
+      "z": 3636,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 157,
+      "label": "Desert amulet 2 / 3 / 4 — Nardah",
+      "area": 28,
+      "x": 3425,
+      "z": 2917,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 158,
+      "label": "Desert amulet 2 / 3 / 4 — Uzer",
+      "area": 28,
+      "x": 3483,
+      "z": 3090,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 159,
+      "label": "Ardougne cloak — Ardougne monastery",
+      "area": 28,
+      "x": 2606,
+      "z": 3221,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 160,
+      "label": "Ardougne cloak — Manor Farm",
+      "area": 28,
+      "x": 2654,
+      "z": 3358,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 161,
+      "label": "Wilderness sword — Wilderness herb patch",
+      "area": 28,
+      "x": 3137,
+      "z": 3822,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 162,
+      "label": "Wilderness sword — Edgeville",
+      "area": 28,
+      "x": 3091,
+      "z": 3478,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 163,
+      "label": "Wilderness sword — Forinthry entrance",
+      "area": 28,
+      "x": 3078,
+      "z": 3655,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 164,
+      "label": "Wilderness sword — Wilderness agility",
+      "area": 28,
+      "x": 3000,
+      "z": 3930,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 165,
+      "label": "Morytania legs — Burgh de Rott",
+      "area": 28,
+      "x": 3498,
+      "z": 3220,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 166,
+      "label": "Morytania legs — Slime pit",
+      "area": 28,
+      "x": 3680,
+      "z": 3490,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 167,
+      "label": "Varrock armour 4 — Bork access",
+      "area": 28,
+      "x": 3144,
+      "z": 3569,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 168,
+      "label": "Tirannwn quiver — Lletya",
+      "area": 28,
+      "x": 2331,
+      "z": 3172,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 169,
+      "label": "Tirannwn quiver — Ithell",
+      "area": 231,
+      "x": 2150,
+      "z": 3330,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 170,
+      "label": "Tirannwn quiver — Poison Waste access",
+      "area": 28,
+      "x": 2320,
+      "z": 3100,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 171,
+      "label": "Tirannwn quiver — Tyras Camp",
+      "area": 28,
+      "x": 2180,
+      "z": 3147,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 172,
+      "label": "Tirannwn quiver — Elf Camp",
+      "area": 28,
+      "x": 2196,
+      "z": 3256,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 173,
+      "label": "Tirannwn quiver — Tirannwn mushroom",
+      "area": 28,
+      "x": 2253,
+      "z": 3130,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 174,
+      "label": "Tirannwn quiver — Death altar access",
+      "area": 28,
+      "x": 2350,
+      "z": 3310,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 175,
+      "label": "Tirannwn quiver — Meilyr",
+      "area": 231,
+      "x": 2266,
+      "z": 3434,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 176,
+      "label": "Drakan's medallion — Burgh de Rott",
+      "area": 28,
+      "x": 3498,
+      "z": 3220,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 177,
+      "label": "Drakan's medallion — Meiyerditch laboratories",
+      "area": 41,
+      "x": 3638,
+      "z": 9701,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 178,
+      "label": "Drakan's medallion — Meiyerditch",
+      "area": 28,
+      "x": 3635,
+      "z": 3215,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 179,
+      "label": "Drakan's medallion — Darkmeyer",
+      "area": 28,
+      "x": 3600,
+      "z": 3370,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 180,
+      "label": "Drakan's medallion — Barrows",
+      "area": 28,
+      "x": 3565,
+      "z": 3313,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 181,
+      "label": "Enchanted lyre — Rellekka",
+      "area": 28,
+      "x": 2660,
+      "z": 3636,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 182,
+      "label": "Enchanted lyre — Neitiznot",
+      "area": 28,
+      "x": 2338,
+      "z": 3804,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 183,
+      "label": "Enchanted lyre — Jatizso",
+      "area": 28,
+      "x": 2415,
+      "z": 3803,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 184,
+      "label": "Enchanted lyre — Waterbirth",
+      "area": 28,
+      "x": 2547,
+      "z": 3757,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 185,
+      "label": "Camulet — Enakhra Temple access",
+      "area": 28,
+      "x": 3190,
+      "z": 2915,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 186,
+      "label": "Broomstick — Sorceress Garden access",
+      "area": 28,
+      "x": 3320,
+      "z": 3141,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 187,
+      "label": "Skull sceptre — Barbarian Village",
+      "area": 28,
+      "x": 3082,
+      "z": 3420,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 188,
+      "label": "Pharaoh's sceptre — Pyramid Plunder",
+      "area": 28,
+      "x": 3288,
+      "z": 2801,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 189,
+      "label": "Pharaoh's sceptre — Agility Pyramid",
+      "area": 28,
+      "x": 3340,
+      "z": 2825,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 190,
+      "label": "Pharaoh's sceptre — Ancient Pyramid",
+      "area": 28,
+      "x": 3233,
+      "z": 2897,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 191,
+      "label": "Sceptre of the gods — Pyramid Plunder",
+      "area": 28,
+      "x": 3288,
+      "z": 2801,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 192,
+      "label": "Sceptre of the gods — Agility Pyramid",
+      "area": 28,
+      "x": 3340,
+      "z": 2825,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 193,
+      "label": "Sceptre of the gods — Ancient Pyramid",
+      "area": 28,
+      "x": 3233,
+      "z": 2897,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 194,
+      "label": "Sceptre of the gods — Imperial district",
+      "area": 28,
+      "x": 3165,
+      "z": 2724,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 195,
+      "label": "Sixth-Age circuit — Guthix shrine",
+      "area": 28,
+      "x": 2921,
+      "z": 3488,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 196,
+      "label": "Sixth-Age circuit — World Gate",
+      "area": 28,
+      "x": 2404,
+      "z": 3372,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 197,
+      "label": "Sixth-Age circuit — Memorial to Guthix",
+      "area": 28,
+      "x": 2272,
+      "z": 3562,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 198,
+      "label": "Skull of Remembrance — Black Knights Fortress",
+      "area": 28,
+      "x": 3028,
+      "z": 3510,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 199,
+      "label": "Dominion medallion — Dominion Tower access",
+      "area": 28,
+      "x": 3370,
+      "z": 3086,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 200,
+      "label": "Clan vexillum — Clan Camp",
+      "area": 28,
+      "x": 2963,
+      "z": 3290,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 201,
+      "label": "Ring of kinship — Daemonheim",
+      "area": 28,
+      "x": 3448,
+      "z": 3695,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 202,
+      "label": "Witchdoctor mask — Herblore Habitat",
+      "area": 28,
+      "x": 2951,
+      "z": 2912,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 203,
+      "label": "Cape of legends — Legends Guild",
+      "area": 28,
+      "x": 2737,
+      "z": 3374,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 204,
+      "label": "Max cape — Max Guild",
+      "area": 231,
+      "x": 2275,
+      "z": 3313,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 205,
+      "label": "Ectophial — Ectofuntus",
+      "area": 28,
+      "x": 3660,
+      "z": 3523,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 206,
+      "label": "Crystal teleport seed — Lletya",
+      "area": 28,
+      "x": 2331,
+      "z": 3172,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 207,
+      "label": "Crystal teleport seed — Temple of Light access",
+      "area": 28,
+      "x": 2350,
+      "z": 3310,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 208,
+      "label": "Crystal teleport seed — Iorwerth",
+      "area": 231,
+      "x": 2154,
+      "z": 3286,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 209,
+      "label": "Crystal teleport seed — Ithell",
+      "area": 231,
+      "x": 2150,
+      "z": 3330,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 210,
+      "label": "Crystal teleport seed — Cadarn",
+      "area": 231,
+      "x": 2266,
+      "z": 3330,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 211,
+      "label": "Crystal teleport seed — Amlodd",
+      "area": 231,
+      "x": 2150,
+      "z": 3382,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 212,
+      "label": "Crystal teleport seed — Trahaearn",
+      "area": 231,
+      "x": 2265,
+      "z": 3286,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 213,
+      "label": "Crystal teleport seed — Hefin",
+      "area": 231,
+      "x": 2150,
+      "z": 3435,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 214,
+      "label": "Crystal teleport seed — Crwys",
+      "area": 231,
+      "x": 2267,
+      "z": 3383,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 215,
+      "label": "Crystal teleport seed — Meilyr",
+      "area": 231,
+      "x": 2266,
+      "z": 3434,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 216,
+      "label": "Captain's log — Player owned ports",
+      "area": 28,
+      "x": 3041,
+      "z": 3202,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 217,
+      "label": "Grand seed pod — Grand Tree",
+      "area": 28,
+      "x": 2465,
+      "z": 3495,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 218,
+      "label": "Juju teleport spiritbag — Herblore Habitat",
+      "area": 28,
+      "x": 2951,
+      "z": 2912,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 219,
+      "label": "Archaeology journal — Archaeology Campus",
+      "area": 28,
+      "x": 3360,
+      "z": 3374,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 220,
+      "label": "Memory strand — Memorial to Guthix",
+      "area": 28,
+      "x": 2272,
+      "z": 3562,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 221,
+      "label": "Ancient seed — Herby Werby",
+      "area": 28,
+      "x": 4075,
+      "z": 4197,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 222,
+      "label": "Anachronia Dinosaur Farm teleport — Anachronia Dinosaur Farm",
+      "area": 28,
+      "x": 3643,
+      "z": 4290,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 223,
+      "label": "Waterfall fishing teleport — Waterfall fishing",
+      "area": 231,
+      "x": 2237,
+      "z": 3410,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 224,
+      "label": "Arc journal — Waiko",
+      "area": 28,
+      "x": 3876,
+      "z": 1948,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 225,
+      "label": "Menaphos journal — Menaphos",
+      "area": 28,
+      "x": 3215,
+      "z": 2756,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 226,
+      "label": "Shattered Worlds teleport scroll — Shattered Worlds",
+      "area": 28,
+      "x": 2677,
+      "z": 2680,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Shattered_Worlds; courtyard area reference near native minigame/bank markers"
+    },
+    {
+      "index": 227,
+      "label": "Remora's necklace — Mos le Harmless",
+      "area": 28,
+      "x": 3674,
+      "z": 2970,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 228,
+      "label": "Remora's necklace — Braindeath Island",
+      "area": 19,
+      "x": 2147,
+      "z": 5098,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 229,
+      "label": "Goblin village sphere — Goblin Village",
+      "area": 28,
+      "x": 2956,
+      "z": 3505,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 230,
+      "label": "Dorgesh-kaan sphere — Dorgesh-Kaan",
+      "area": 26,
+      "x": 32,
+      "z": 101,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 231,
+      "label": "Plain of mud sphere — Plain of Mud access",
+      "area": 28,
+      "x": 2620,
+      "z": 3390,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 232,
+      "label": "Bandos throne room sphere — Bandos Throne Room access",
+      "area": 1,
+      "x": 2380,
+      "z": 4455,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 233,
+      "label": "Miscellania Teleport — Miscellania",
+      "area": 28,
+      "x": 2535,
+      "z": 3868,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 234,
+      "label": "Fort Forinthry Teleport — Fort Forinthry",
+      "area": 28,
+      "x": 3295,
+      "z": 3545,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 235,
+      "label": "Bandit Camp Teleport — Desert Bandit Camp",
+      "area": 28,
+      "x": 3175,
+      "z": 2977,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 236,
+      "label": "Pollnivneach Teleport — Pollnivneach portal",
+      "area": 28,
+      "x": 3340,
+      "z": 3003,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 237,
+      "label": "Phoenix Lair Teleport — Phoenix Lair",
+      "area": 28,
+      "x": 2293,
+      "z": 3625,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 238,
+      "label": "Tai Bwo Wannai Teleport — Tai Bwo Wannai",
+      "area": 28,
+      "x": 2787,
+      "z": 3065,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 239,
+      "label": "Lighthouse Teleport — Lighthouse",
+      "area": 28,
+      "x": 2510,
+      "z": 3635,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 240,
+      "label": "Clocktower Teleport — Clocktower",
+      "area": 28,
+      "x": 2564,
+      "z": 3248,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 241,
+      "label": "Gu'Tanoth Teleport — Gu Tanoth",
+      "area": 28,
+      "x": 2544,
+      "z": 2955,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 242,
+      "label": "Grand Exchange Teleport — Grand Exchange",
+      "area": 28,
+      "x": 3164,
+      "z": 3479,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 243,
+      "label": "Void shifter — Void Knights Outpost",
+      "area": 28,
+      "x": 2658,
+      "z": 2658,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 244,
+      "label": "Spirit graahk — Karamja Hunter",
+      "area": 28,
+      "x": 2786,
+      "z": 3006,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 245,
+      "label": "Spirit kyatt — Piscatoris Hunter",
+      "area": 28,
+      "x": 2325,
+      "z": 3588,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 246,
+      "label": "Spirit larupia — Feldip Hunter",
+      "area": 28,
+      "x": 2557,
+      "z": 2914,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 247,
+      "label": "Arctic bear — Rellekka Hunter",
+      "area": 28,
+      "x": 2727,
+      "z": 3780,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 248,
+      "label": "Lava titan — Lava Maze",
+      "area": 28,
+      "x": 3030,
+      "z": 3840,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 249,
+      "label": "Master archaeologist's outfit — Archaeology Campus",
+      "area": 28,
+      "x": 3360,
+      "z": 3374,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 250,
+      "label": "Master archaeologist's outfit — Kharid et",
+      "area": 28,
+      "x": 3359,
+      "z": 3189,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 251,
+      "label": "Master archaeologist's outfit — Infernal Source",
+      "area": 28,
+      "x": 3262,
+      "z": 3502,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 252,
+      "label": "Master archaeologist's outfit — Everlight",
+      "area": 28,
+      "x": 3701,
+      "z": 3204,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 253,
+      "label": "Master archaeologist's outfit — Moonrise",
+      "area": 28,
+      "x": 4446,
+      "z": 3448,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 254,
+      "label": "Master archaeologist's outfit — Senntisten access",
+      "area": 28,
+      "x": 3331,
+      "z": 3453,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 255,
+      "label": "Master archaeologist's outfit — Stormguard Citadel",
+      "area": 28,
+      "x": 2678,
+      "z": 3398,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 256,
+      "label": "Master archaeologist's outfit — Daemonheim",
+      "area": 28,
+      "x": 3448,
+      "z": 3695,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 257,
+      "label": "Master archaeologist's outfit — Warforge",
+      "area": 28,
+      "x": 2410,
+      "z": 2841,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 258,
+      "label": "Master archaeologist's outfit — Orthen",
+      "area": 28,
+      "x": 3921,
+      "z": 4260,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 259,
+      "label": "Master archaeologist's outfit — Art Critic Jacques: museum",
+      "area": 28,
+      "x": 3260,
+      "z": 3446,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 260,
+      "label": "Master archaeologist's outfit — Artiefax: Taverley",
+      "area": 28,
+      "x": 2890,
+      "z": 3440,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 261,
+      "label": "Master archaeologist's outfit — Chief Tess",
+      "area": 28,
+      "x": 2547,
+      "z": 2852,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 262,
+      "label": "Master archaeologist's outfit — Generals Bentnoze & Wartface",
+      "area": 28,
+      "x": 2955,
+      "z": 3510,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 263,
+      "label": "Master archaeologist's outfit — Isaura: Black Knights Base",
+      "area": 17,
+      "x": 2930,
+      "z": 9690,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 264,
+      "label": "Master archaeologist's outfit — Lowse: Armadyls Tower",
+      "area": 28,
+      "x": 2960,
+      "z": 3260,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 265,
+      "label": "Master archaeologist's outfit — Sharrigan: Anachronia base camp",
+      "area": 28,
+      "x": 3921,
+      "z": 4260,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 266,
+      "label": "Master archaeologist's outfit — Sir Atcha",
+      "area": 28,
+      "x": 2961,
+      "z": 3346,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 267,
+      "label": "Master archaeologist's outfit — Soran, Emissary of Zaros",
+      "area": 28,
+      "x": 3183,
+      "z": 3417,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 268,
+      "label": "Master archaeologist's outfit — Velucia",
+      "area": 28,
+      "x": 3342,
+      "z": 3385,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 269,
+      "label": "Master archaeologist's outfit — Wise Old Man",
+      "area": 28,
+      "x": 3088,
+      "z": 3255,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 270,
+      "label": "Master archaeologist's outfit — Eblis",
+      "area": 28,
+      "x": 3185,
+      "z": 2983,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_archaeologist%27s_outfit; native NPC/label anchors"
+    },
+    {
+      "index": 271,
+      "label": "Archaeology teleport — Archaeology Campus",
+      "area": 28,
+      "x": 3360,
+      "z": 3374,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 272,
+      "label": "Archaeology teleport — Kharid et",
+      "area": 28,
+      "x": 3359,
+      "z": 3189,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 273,
+      "label": "Archaeology teleport — Infernal Source",
+      "area": 28,
+      "x": 3262,
+      "z": 3502,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 274,
+      "label": "Archaeology teleport — Everlight",
+      "area": 28,
+      "x": 3701,
+      "z": 3204,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 275,
+      "label": "Archaeology teleport — Moonrise",
+      "area": 28,
+      "x": 4446,
+      "z": 3448,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 276,
+      "label": "Archaeology teleport — Senntisten access",
+      "area": 28,
+      "x": 3331,
+      "z": 3453,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 277,
+      "label": "Archaeology teleport — Stormguard Citadel",
+      "area": 28,
+      "x": 2678,
+      "z": 3398,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 278,
+      "label": "Archaeology teleport — Daemonheim",
+      "area": 28,
+      "x": 3448,
+      "z": 3695,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 279,
+      "label": "Archaeology teleport — Warforge",
+      "area": 28,
+      "x": 2410,
+      "z": 2841,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 280,
+      "label": "Archaeology teleport — Orthen",
+      "area": 28,
+      "x": 3921,
+      "z": 4260,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 281,
+      "label": "Archaeology teleport — Art Critic Jacques: museum",
+      "area": 28,
+      "x": 3260,
+      "z": 3446,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 282,
+      "label": "Archaeology teleport — Artiefax: Taverley",
+      "area": 28,
+      "x": 2890,
+      "z": 3440,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 283,
+      "label": "Archaeology teleport — Chief Tess",
+      "area": 28,
+      "x": 2547,
+      "z": 2852,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 284,
+      "label": "Archaeology teleport — Generals Bentnoze & Wartface",
+      "area": 28,
+      "x": 2955,
+      "z": 3510,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 285,
+      "label": "Archaeology teleport — Isaura: Black Knights Base",
+      "area": 17,
+      "x": 2930,
+      "z": 9690,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 286,
+      "label": "Archaeology teleport — Lowse: Armadyls Tower",
+      "area": 28,
+      "x": 2960,
+      "z": 3260,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 287,
+      "label": "Archaeology teleport — Sharrigan: Anachronia base camp",
+      "area": 28,
+      "x": 3921,
+      "z": 4260,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 288,
+      "label": "Archaeology teleport — Sir Atcha",
+      "area": 28,
+      "x": 2961,
+      "z": 3346,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 289,
+      "label": "Archaeology teleport — Soran, Emissary of Zaros",
+      "area": 28,
+      "x": 3183,
+      "z": 3417,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 290,
+      "label": "Archaeology teleport — Velucia",
+      "area": 28,
+      "x": 3342,
+      "z": 3385,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 291,
+      "label": "Archaeology teleport — Wise Old Man",
+      "area": 28,
+      "x": 3088,
+      "z": 3255,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 292,
+      "label": "Archaeology teleport — Eblis",
+      "area": 28,
+      "x": 3185,
+      "z": 2983,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 293,
+      "label": "Master constructor's outfit — Rimmington portal",
+      "area": 28,
+      "x": 2954,
+      "z": 3224,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 294,
+      "label": "Master constructor's outfit — Taverley portal",
+      "area": 28,
+      "x": 2894,
+      "z": 3466,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 295,
+      "label": "Master constructor's outfit — Pollnivneach portal",
+      "area": 28,
+      "x": 3340,
+      "z": 3003,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 296,
+      "label": "Master constructor's outfit — Rellekka portal",
+      "area": 28,
+      "x": 2670,
+      "z": 3630,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 297,
+      "label": "Master constructor's outfit — Brimhaven portal",
+      "area": 28,
+      "x": 2757,
+      "z": 3178,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 298,
+      "label": "Master constructor's outfit — Yanille portal",
+      "area": 28,
+      "x": 2544,
+      "z": 3096,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 299,
+      "label": "Master constructor's outfit — Menaphos portal",
+      "area": 28,
+      "x": 3210,
+      "z": 2710,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 300,
+      "label": "Master constructor's outfit — Otot portal",
+      "area": 28,
+      "x": 3110,
+      "z": 2850,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 301,
+      "label": "Master constructor's outfit — Prifddinas portal",
+      "area": 231,
+      "x": 2137,
+      "z": 3310,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 302,
+      "label": "Master constructor's outfit — Varrock",
+      "area": 28,
+      "x": 3212,
+      "z": 3428,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 303,
+      "label": "Master constructor's outfit — Seers Village",
+      "area": 28,
+      "x": 2724,
+      "z": 3485,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 304,
+      "label": "Master constructor's outfit — Falador",
+      "area": 28,
+      "x": 2964,
+      "z": 3378,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 305,
+      "label": "Master constructor's outfit — Ardougne",
+      "area": 28,
+      "x": 2660,
+      "z": 3304,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 306,
+      "label": "Master constructor's outfit — Prifddinas",
+      "area": 231,
+      "x": 2208,
+      "z": 3360,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 307,
+      "label": "Master farmer outfit — Morytania allotment",
+      "area": 28,
+      "x": 3604,
+      "z": 3529,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 308,
+      "label": "Master farmer outfit — Manor Farm",
+      "area": 28,
+      "x": 2654,
+      "z": 3358,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 309,
+      "label": "Master farmer outfit — Herblore Habitat",
+      "area": 28,
+      "x": 2951,
+      "z": 2912,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 310,
+      "label": "Master farmer outfit — Grand Tree",
+      "area": 28,
+      "x": 2465,
+      "z": 3495,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 311,
+      "label": "Master camouflage outfit — Iorwerth",
+      "area": 231,
+      "x": 2154,
+      "z": 3286,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 312,
+      "label": "Master camouflage outfit — Ithell",
+      "area": 231,
+      "x": 2150,
+      "z": 3330,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 313,
+      "label": "Master camouflage outfit — Cadarn",
+      "area": 231,
+      "x": 2266,
+      "z": 3330,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 314,
+      "label": "Master camouflage outfit — Amlodd",
+      "area": 231,
+      "x": 2150,
+      "z": 3382,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 315,
+      "label": "Master camouflage outfit — Trahaearn",
+      "area": 231,
+      "x": 2265,
+      "z": 3286,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 316,
+      "label": "Master camouflage outfit — Hefin",
+      "area": 231,
+      "x": 2150,
+      "z": 3435,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 317,
+      "label": "Master camouflage outfit — Crwys",
+      "area": 231,
+      "x": 2267,
+      "z": 3383,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 318,
+      "label": "Master camouflage outfit — Meilyr",
+      "area": 231,
+      "x": 2266,
+      "z": 3434,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 319,
+      "label": "Master camouflage outfit — Pyramid Plunder",
+      "area": 28,
+      "x": 3288,
+      "z": 2801,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 320,
+      "label": "Master camouflage outfit — Keldagrim",
+      "area": 21,
+      "x": 21,
+      "z": 159,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 321,
+      "label": "Master camouflage outfit — Lletya",
+      "area": 28,
+      "x": 2331,
+      "z": 3172,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 322,
+      "label": "Master camouflage outfit — Thieves Guild access",
+      "area": 28,
+      "x": 3223,
+      "z": 3269,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 323,
+      "label": "Master camouflage outfit — Pollnivneach portal",
+      "area": 28,
+      "x": 3340,
+      "z": 3003,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 324,
+      "label": "Elder divination outfit — Pale wisps",
+      "area": 28,
+      "x": 3120,
+      "z": 3214,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 325,
+      "label": "Elder divination outfit — Flickering wisps",
+      "area": 28,
+      "x": 3003,
+      "z": 3400,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 326,
+      "label": "Elder divination outfit — Bright wisps",
+      "area": 28,
+      "x": 3320,
+      "z": 3330,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 327,
+      "label": "Elder divination outfit — Glowing wisps",
+      "area": 28,
+      "x": 2738,
+      "z": 3416,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 328,
+      "label": "Elder divination outfit — Sparkling wisps",
+      "area": 28,
+      "x": 2777,
+      "z": 3598,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 329,
+      "label": "Elder divination outfit — Gleaming wisps",
+      "area": 28,
+      "x": 2848,
+      "z": 3024,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 330,
+      "label": "Elder divination outfit — Vibrant wisps",
+      "area": 28,
+      "x": 2420,
+      "z": 2860,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 331,
+      "label": "Elder divination outfit — Lustrous wisps",
+      "area": 28,
+      "x": 3478,
+      "z": 3540,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 332,
+      "label": "Elder divination outfit — Brilliant wisps",
+      "area": 28,
+      "x": 3400,
+      "z": 3300,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 333,
+      "label": "Elder divination outfit — Radiant wisps",
+      "area": 28,
+      "x": 3560,
+      "z": 3475,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 334,
+      "label": "Elder divination outfit — Luminous wisps",
+      "area": 28,
+      "x": 3300,
+      "z": 2670,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 335,
+      "label": "Elder divination outfit — Incandescent wisps",
+      "area": 28,
+      "x": 2300,
+      "z": 3050,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 336,
+      "label": "Elder divination outfit — Guthix shrine",
+      "area": 28,
+      "x": 2921,
+      "z": 3488,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 337,
+      "label": "Wicked hood — Air altar",
+      "area": 28,
+      "x": 3128,
+      "z": 3405,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 338,
+      "label": "Wicked hood — Mind altar",
+      "area": 28,
+      "x": 2980,
+      "z": 3513,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 339,
+      "label": "Wicked hood — Water altar",
+      "area": 28,
+      "x": 3184,
+      "z": 3165,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 340,
+      "label": "Wicked hood — Earth altar",
+      "area": 28,
+      "x": 3305,
+      "z": 3473,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 341,
+      "label": "Wicked hood — Fire altar",
+      "area": 28,
+      "x": 3312,
+      "z": 3253,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 342,
+      "label": "Wicked hood — Body altar",
+      "area": 28,
+      "x": 3053,
+      "z": 3445,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 343,
+      "label": "Wicked hood — Cosmic altar access",
+      "area": 1,
+      "x": 2413,
+      "z": 4374,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 344,
+      "label": "Wicked hood — Chaos altar",
+      "area": 28,
+      "x": 3058,
+      "z": 3590,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 345,
+      "label": "Wicked hood — Nature altar",
+      "area": 28,
+      "x": 2868,
+      "z": 3019,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 346,
+      "label": "Wicked hood — Law altar",
+      "area": 28,
+      "x": 2858,
+      "z": 3379,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 347,
+      "label": "Wicked hood — Death altar access",
+      "area": 28,
+      "x": 2350,
+      "z": 3310,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 348,
+      "label": "Wicked hood — Blood altar access",
+      "area": 28,
+      "x": 3600,
+      "z": 3310,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 349,
+      "label": "Wicked hood — Soul altar access",
+      "area": 28,
+      "x": 3197,
+      "z": 2758,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 350,
+      "label": "Wicked hood — Wizards Tower",
+      "area": 28,
+      "x": 3106,
+      "z": 3162,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 351,
+      "label": "Infinity ethereal outfit — Air altar",
+      "area": 28,
+      "x": 3128,
+      "z": 3405,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 352,
+      "label": "Infinity ethereal outfit — Mind altar",
+      "area": 28,
+      "x": 2980,
+      "z": 3513,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 353,
+      "label": "Infinity ethereal outfit — Water altar",
+      "area": 28,
+      "x": 3184,
+      "z": 3165,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 354,
+      "label": "Infinity ethereal outfit — Earth altar",
+      "area": 28,
+      "x": 3305,
+      "z": 3473,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 355,
+      "label": "Infinity ethereal outfit — Fire altar",
+      "area": 28,
+      "x": 3312,
+      "z": 3253,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 356,
+      "label": "Infinity ethereal outfit — Body altar",
+      "area": 28,
+      "x": 3053,
+      "z": 3445,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 357,
+      "label": "Infinity ethereal outfit — Cosmic altar access",
+      "area": 1,
+      "x": 2413,
+      "z": 4374,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 358,
+      "label": "Infinity ethereal outfit — Chaos altar",
+      "area": 28,
+      "x": 3058,
+      "z": 3590,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 359,
+      "label": "Infinity ethereal outfit — Nature altar",
+      "area": 28,
+      "x": 2868,
+      "z": 3019,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 360,
+      "label": "Infinity ethereal outfit — Law altar",
+      "area": 28,
+      "x": 2858,
+      "z": 3379,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 361,
+      "label": "Infinity ethereal outfit — Death altar access",
+      "area": 28,
+      "x": 2350,
+      "z": 3310,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 362,
+      "label": "Infinity ethereal outfit — Blood altar access",
+      "area": 28,
+      "x": 3600,
+      "z": 3310,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 363,
+      "label": "Infinity ethereal outfit — Soul altar access",
+      "area": 28,
+      "x": 3197,
+      "z": 2758,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 364,
+      "label": "Infinity ethereal outfit — Wizards Tower",
+      "area": 28,
+      "x": 3106,
+      "z": 3162,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 365,
+      "label": "Modified farmer's hat — Morytania allotment",
+      "area": 28,
+      "x": 3604,
+      "z": 3529,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 366,
+      "label": "Modified botanist's mask — Catherby allotment",
+      "area": 28,
+      "x": 2814,
+      "z": 3466,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 367,
+      "label": "Modified artisan's bandana — Crafting Guild",
+      "area": 28,
+      "x": 2928,
+      "z": 3286,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 368,
+      "label": "Modified blacksmith's helmet — Artisans Workshop",
+      "area": 28,
+      "x": 3030,
+      "z": 3338,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 369,
+      "label": "Modified shaman's headdress — Bogrog",
+      "area": 28,
+      "x": 2523,
+      "z": 3054,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 370,
+      "label": "Modified sous chef's toque — Cooks Guild",
+      "area": 28,
+      "x": 3137,
+      "z": 3437,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 371,
+      "label": "Modified diviner's headwear — Guthix shrine",
+      "area": 28,
+      "x": 2921,
+      "z": 3488,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 372,
+      "label": "Nature's sentinel outfit — Normal / oak trees: west Varrock",
+      "area": 28,
+      "x": 3166,
+      "z": 3415,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 373,
+      "label": "Nature's sentinel outfit — Normal / oak trees: east Varrock",
+      "area": 28,
+      "x": 3281,
+      "z": 3422,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 374,
+      "label": "Nature's sentinel outfit — Willows: Draynor",
+      "area": 28,
+      "x": 3087,
+      "z": 3235,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 375,
+      "label": "Nature's sentinel outfit — Willows: Catherby",
+      "area": 28,
+      "x": 2800,
+      "z": 3430,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 376,
+      "label": "Nature's sentinel outfit — Willows: Barbarian Outpost",
+      "area": 28,
+      "x": 2515,
+      "z": 3572,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 377,
+      "label": "Nature's sentinel outfit — Teak: Musa Point",
+      "area": 28,
+      "x": 2868,
+      "z": 3225,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 378,
+      "label": "Nature's sentinel outfit — Teak / mahogany: Tai Bwo Wannai",
+      "area": 28,
+      "x": 2820,
+      "z": 3080,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 379,
+      "label": "Nature's sentinel outfit — Teak / mahogany: Ape Atoll",
+      "area": 28,
+      "x": 2770,
+      "z": 2700,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 380,
+      "label": "Nature's sentinel outfit — Teak: south-west Castle Wars",
+      "area": 28,
+      "x": 2335,
+      "z": 3044,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 381,
+      "label": "Nature's sentinel outfit — Mahogany: Kharazi Jungle",
+      "area": 28,
+      "x": 2822,
+      "z": 2915,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 382,
+      "label": "Nature's sentinel outfit — Maple: Seers Village",
+      "area": 28,
+      "x": 2726,
+      "z": 3500,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 383,
+      "label": "Nature's sentinel outfit — Maple: south Varrock",
+      "area": 28,
+      "x": 3200,
+      "z": 3360,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 384,
+      "label": "Nature's sentinel outfit — Maple: Daemonheim Peninsula",
+      "area": 28,
+      "x": 3514,
+      "z": 3666,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 385,
+      "label": "Nature's sentinel outfit — Acadia: Hets Oasis",
+      "area": 28,
+      "x": 3316,
+      "z": 3235,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 386,
+      "label": "Nature's sentinel outfit — Acadia: Menaphos",
+      "area": 28,
+      "x": 3170,
+      "z": 2750,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 387,
+      "label": "Nature's sentinel outfit — Yew: Seers Graveyard",
+      "area": 28,
+      "x": 2714,
+      "z": 3463,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 388,
+      "label": "Nature's sentinel outfit — Yew: west Catherby",
+      "area": 28,
+      "x": 2765,
+      "z": 3428,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 389,
+      "label": "Nature's sentinel outfit — Yew: Edgeville",
+      "area": 28,
+      "x": 3088,
+      "z": 3467,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 390,
+      "label": "Nature's sentinel outfit — Yew: Varrock Palace",
+      "area": 28,
+      "x": 3218,
+      "z": 3504,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 391,
+      "label": "Nature's sentinel outfit — Yew / magic / ivy: Crwys",
+      "area": 231,
+      "x": 2267,
+      "z": 3383,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 392,
+      "label": "Nature's sentinel outfit — Magic: east Ranging Guild",
+      "area": 28,
+      "x": 2705,
+      "z": 3420,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 393,
+      "label": "Nature's sentinel outfit — Magic: Sorcerers Tower",
+      "area": 28,
+      "x": 2700,
+      "z": 3395,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 394,
+      "label": "Nature's sentinel outfit — Magic: Mage Training Arena",
+      "area": 28,
+      "x": 3360,
+      "z": 3305,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 395,
+      "label": "Nature's sentinel outfit — Magic: south Tirannwn",
+      "area": 28,
+      "x": 2280,
+      "z": 3110,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 396,
+      "label": "Nature's sentinel outfit — Elder: east Sorcerers Tower",
+      "area": 28,
+      "x": 2737,
+      "z": 3404,
+      "verification": "matches native elder-tree footprint; adjacent landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit; local scenery config 87520 at 2735,3402"
+    },
+    {
+      "index": 397,
+      "label": "Nature's sentinel outfit — Elder: south Yanille",
+      "area": 28,
+      "x": 2574,
+      "z": 3060,
+      "verification": "matches native elder-tree footprint; adjacent landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit; local scenery config 87516 at 2572,3058"
+    },
+    {
+      "index": 398,
+      "label": "Nature's sentinel outfit — Elder: Tree Gnome Stronghold",
+      "area": 28,
+      "x": 2428,
+      "z": 3455,
+      "verification": "matches native elder-tree footprint; adjacent landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit; local scenery config 87514 at 2426,3453"
+    },
+    {
+      "index": 399,
+      "label": "Nature's sentinel outfit — Elder: south Draynor",
+      "area": 28,
+      "x": 3097,
+      "z": 3215,
+      "verification": "matches native elder-tree footprint; adjacent landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit; local scenery config 87528 at 3095,3213"
+    },
+    {
+      "index": 400,
+      "label": "Nature's sentinel outfit — Elder: Falador Farm",
+      "area": 28,
+      "x": 3056,
+      "z": 3320,
+      "verification": "matches native elder-tree footprint; adjacent landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit; local scenery config 87524 at 3054,3318"
+    },
+    {
+      "index": 401,
+      "label": "Nature's sentinel outfit — Elder: south Varrock",
+      "area": 28,
+      "x": 3262,
+      "z": 3370,
+      "verification": "matches native elder-tree footprint; adjacent landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit; local scenery config 87530 at 3260,3368"
+    },
+    {
+      "index": 402,
+      "label": "Nature's sentinel outfit — Elder: west Lletya",
+      "area": 28,
+      "x": 2298,
+      "z": 3147,
+      "verification": "matches native elder-tree footprint; adjacent landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit; local scenery config 87518 at 2296,3145"
+    },
+    {
+      "index": 403,
+      "label": "Nature's sentinel outfit — Elder / eternal magic: Piscatoris",
+      "area": 28,
+      "x": 2323,
+      "z": 3601,
+      "verification": "matches native elder-tree footprint; adjacent landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit; local scenery config 87512 at 2321,3599"
+    },
+    {
+      "index": 404,
+      "label": "Nature's sentinel outfit — Elder: south Edgeville",
+      "area": 28,
+      "x": 3093,
+      "z": 3454,
+      "verification": "matches native elder-tree footprint; adjacent landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit; local scenery config 87522 at 3091,3452"
+    },
+    {
+      "index": 405,
+      "label": "Nature's sentinel outfit — Elder: north Rimmington",
+      "area": 28,
+      "x": 2931,
+      "z": 3230,
+      "verification": "matches native elder-tree footprint; adjacent landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit; local scenery config 87526 at 2929,3228"
+    },
+    {
+      "index": 406,
+      "label": "Nature's sentinel outfit — Elder: Fort Forinthry Grove",
+      "area": 28,
+      "x": 3379,
+      "z": 3545,
+      "verification": "matches native elder-tree footprint; adjacent landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit; local scenery config 125533 at 3377,3543"
+    },
+    {
+      "index": 407,
+      "label": "Nature's sentinel outfit — Overgrown idol: Karamja shipyard",
+      "area": 28,
+      "x": 2960,
+      "z": 3060,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 408,
+      "label": "Nature's sentinel outfit — Overgrown idol: Jadinko Lair",
+      "area": 28,
+      "x": 2940,
+      "z": 2955,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 409,
+      "label": "Nature's sentinel outfit — Ivy: north Varrock Palace",
+      "area": 28,
+      "x": 3220,
+      "z": 3509,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 410,
+      "label": "Nature's sentinel outfit — Ivy: east Varrock Palace",
+      "area": 28,
+      "x": 3233,
+      "z": 3470,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 411,
+      "label": "Nature's sentinel outfit — Ivy: north Falador",
+      "area": 28,
+      "x": 3015,
+      "z": 3395,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 412,
+      "label": "Nature's sentinel outfit — Ivy: south Falador",
+      "area": 28,
+      "x": 3050,
+      "z": 3320,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 413,
+      "label": "Nature's sentinel outfit — Ivy: south-east Taverley",
+      "area": 28,
+      "x": 2934,
+      "z": 3418,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 414,
+      "label": "Nature's sentinel outfit — Ivy: East Ardougne Church",
+      "area": 28,
+      "x": 2616,
+      "z": 3310,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 415,
+      "label": "Nature's sentinel outfit — Ivy: north Yanille",
+      "area": 28,
+      "x": 2595,
+      "z": 3110,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 416,
+      "label": "Nature's sentinel outfit — Ivy: south Castle Wars",
+      "area": 28,
+      "x": 2425,
+      "z": 3060,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 417,
+      "label": "Nature's sentinel outfit — Arctic pines: north Neitiznot",
+      "area": 28,
+      "x": 2335,
+      "z": 3830,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Nature_sentinel%27s_outfit"
+    },
+    {
+      "index": 418,
+      "label": "Volcanic trapper outfit — Tracking / bird / butterfly: Feldip",
+      "area": 28,
+      "x": 2557,
+      "z": 2914,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 419,
+      "label": "Volcanic trapper outfit — Tracking / butterfly / pitfall: Trollweiss",
+      "area": 28,
+      "x": 2727,
+      "z": 3780,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 420,
+      "label": "Volcanic trapper outfit — Tracking / deadfall / bird / butterfly: Piscatoris",
+      "area": 28,
+      "x": 2325,
+      "z": 3588,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 421,
+      "label": "Volcanic trapper outfit — Tracking / bird: Uzer",
+      "area": 28,
+      "x": 3400,
+      "z": 3090,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 422,
+      "label": "Volcanic trapper outfit — Box trapping: Feldip chinchompas",
+      "area": 28,
+      "x": 2550,
+      "z": 2915,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 423,
+      "label": "Volcanic trapper outfit — Box trapping: Piscatoris chinchompas",
+      "area": 28,
+      "x": 2320,
+      "z": 3590,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 424,
+      "label": "Volcanic trapper outfit — Box trapping: black chinchompas",
+      "area": 28,
+      "x": 3140,
+      "z": 3775,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 425,
+      "label": "Volcanic trapper outfit — Pitfall: Karamja",
+      "area": 28,
+      "x": 2786,
+      "z": 3006,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 426,
+      "label": "Volcanic trapper outfit — Falconry",
+      "area": 28,
+      "x": 2372,
+      "z": 3589,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 427,
+      "label": "Volcanic trapper outfit — Net trapping: swamp lizards",
+      "area": 28,
+      "x": 3530,
+      "z": 3440,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 428,
+      "label": "Volcanic trapper outfit — Net trapping: orange salamanders",
+      "area": 28,
+      "x": 3430,
+      "z": 3080,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 429,
+      "label": "Volcanic trapper outfit — Net trapping: red salamanders",
+      "area": 28,
+      "x": 2450,
+      "z": 3220,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 430,
+      "label": "Volcanic trapper outfit — Net trapping: black salamanders",
+      "area": 28,
+      "x": 3300,
+      "z": 3670,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 431,
+      "label": "Volcanic trapper outfit — Herblore Habitat",
+      "area": 28,
+      "x": 2951,
+      "z": 2912,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 432,
+      "label": "Volcanic trapper outfit — Yaktwee",
+      "area": 28,
+      "x": 2398,
+      "z": 3395,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 433,
+      "label": "Volcanic trapper outfit — Tortles: Whales Maw",
+      "area": 28,
+      "x": 4002,
+      "z": 2143,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 434,
+      "label": "Volcanic trapper outfit — Big Chinchompa access",
+      "area": 28,
+      "x": 2555,
+      "z": 2910,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 435,
+      "label": "Volcanic trapper outfit — Hets Oasis",
+      "area": 28,
+      "x": 3316,
+      "z": 3235,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 436,
+      "label": "Bonesack / ram skull helm (enchanted) — Rag and Bone Man",
+      "area": 28,
+      "x": 3359,
+      "z": 3504,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 437,
+      "label": "Radiant alchemist's amulet — Grand Exchange",
+      "area": 28,
+      "x": 3164,
+      "z": 3479,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 438,
+      "label": "Engrams — Memorial to Guthix",
+      "area": 28,
+      "x": 2272,
+      "z": 3562,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 439,
+      "label": "Rum (Trouble Brewing) — Trouble Brewing: blue team",
+      "area": 28,
+      "x": 3710,
+      "z": 2957,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 440,
+      "label": "Rum (Trouble Brewing) — Trouble Brewing: red team",
+      "area": 28,
+      "x": 3815,
+      "z": 3025,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 441,
+      "label": "TokKul-Zo — Fight Pit",
+      "area": 12,
+      "x": 4572,
+      "z": 5094,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/TokKul-Zo"
+    },
+    {
+      "index": 442,
+      "label": "TokKul-Zo — Fight Cave",
+      "area": 12,
+      "x": 4611,
+      "z": 5132,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/TokKul-Zo"
+    },
+    {
+      "index": 443,
+      "label": "TokKul-Zo — Main Plaza",
+      "area": 12,
+      "x": 4672,
+      "z": 5160,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/TokKul-Zo"
+    },
+    {
+      "index": 444,
+      "label": "TokKul-Zo — Fight Kiln",
+      "area": 12,
+      "x": 4743,
+      "z": 5170,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/TokKul-Zo"
+    },
+    {
+      "index": 445,
+      "label": "TokKul-Zo — Fight Cauldron access",
+      "area": 12,
+      "x": 4672,
+      "z": 5160,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/TokKul-Zo"
+    },
+    {
+      "index": 446,
+      "label": "Obelisk shard / portable obelisk — Wilderness level 50 - South-east of Rogues Castle",
+      "area": 28,
+      "x": 3307,
+      "z": 3916,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 447,
+      "label": "Obelisk shard / portable obelisk — Wilderness level 44 - West of the Lava Maze",
+      "area": 28,
+      "x": 2980,
+      "z": 3866,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 448,
+      "label": "Obelisk shard / portable obelisk — Wilderness level 13 - South-east of the Wilderness Crater",
+      "area": 28,
+      "x": 3154,
+      "z": 3620,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 449,
+      "label": "Obelisk shard / portable obelisk — Wilderness level 18 - South of the Graveyard of Shadows",
+      "area": 28,
+      "x": 3219,
+      "z": 3656,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 450,
+      "label": "Obelisk shard / portable obelisk — Wilderness level 27 - North of the Bandit Camp",
+      "area": 28,
+      "x": 3035,
+      "z": 3732,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 451,
+      "label": "Obelisk shard / portable obelisk — Wilderness level 35 - South of the Lava Maze",
+      "area": 28,
+      "x": 3106,
+      "z": 3794,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 452,
+      "label": "Mask of Broken Fingers — Slayer Tower",
+      "area": 28,
+      "x": 3434,
+      "z": 3531,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_Broken_Fingers"
+    },
+    {
+      "index": 453,
+      "label": "Mask of Stone — Cockatrice",
+      "area": 5,
+      "x": 2792,
+      "z": 10037,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_Stone"
+    },
+    {
+      "index": 454,
+      "label": "Mask of Reflection — Basilisks",
+      "area": 5,
+      "x": 2744,
+      "z": 10004,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_Reflection"
+    },
+    {
+      "index": 455,
+      "label": "Mask of the Kura — Kurask",
+      "area": 5,
+      "x": 2701,
+      "z": 10001,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_the_Kura"
+    },
+    {
+      "index": 456,
+      "label": "Mask of the Abyss — Slayer Tower",
+      "area": 28,
+      "x": 3434,
+      "z": 3531,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_the_Abyss"
+    },
+    {
+      "index": 457,
+      "label": "Mask of Mourning — Slayer Tower",
+      "area": 28,
+      "x": 3434,
+      "z": 3531,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_Mourning"
+    },
+    {
+      "index": 458,
+      "label": "Mask of Gelatin — Jellies",
+      "area": 5,
+      "x": 2705,
+      "z": 10032,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_Gelatin"
+    },
+    {
+      "index": 459,
+      "label": "Mask of Dust — Dust devils",
+      "area": 23,
+      "x": 3171,
+      "z": 5514,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_Dust"
+    },
+    {
+      "index": 460,
+      "label": "Mask of Dust — Smoke Dungeon access",
+      "area": 28,
+      "x": 3310,
+      "z": 2960,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_Dust"
+    },
+    {
+      "index": 461,
+      "label": "Mask of Granite — Slayer Tower",
+      "area": 28,
+      "x": 3434,
+      "z": 3531,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_Granite"
+    },
+    {
+      "index": 462,
+      "label": "Mask of Vines — Jadinko Lair access",
+      "area": 28,
+      "x": 2950,
+      "z": 2945,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_Vines"
+    },
+    {
+      "index": 463,
+      "label": "Mask of Crimson — Slayer Tower",
+      "area": 28,
+      "x": 3434,
+      "z": 3531,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_Crimson"
+    },
+    {
+      "index": 464,
+      "label": "Mask of Crimson — Meiyerditch laboratories",
+      "area": 41,
+      "x": 3638,
+      "z": 9701,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_Crimson"
+    },
+    {
+      "index": 465,
+      "label": "Mask of Stench — Slayer Tower",
+      "area": 28,
+      "x": 3434,
+      "z": 3531,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_Stench"
+    },
+    {
+      "index": 466,
+      "label": "Mask of the Green Wyrm — Jungle strykewyrms",
+      "area": 28,
+      "x": 2465,
+      "z": 2910,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_the_Green_Wyrm"
+    },
+    {
+      "index": 467,
+      "label": "Mask of the Yellow Wyrm — Desert strykewyrms",
+      "area": 28,
+      "x": 3370,
+      "z": 3145,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_the_Yellow_Wyrm"
+    },
+    {
+      "index": 468,
+      "label": "Mask of the White Wyrm — Ice strykewyrm cave access",
+      "area": 28,
+      "x": 2725,
+      "z": 3760,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_the_White_Wyrm"
+    },
+    {
+      "index": 469,
+      "label": "Mask of Gloom — Temple of Light access",
+      "area": 28,
+      "x": 2350,
+      "z": 3310,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_Gloom"
+    },
+    {
+      "index": 470,
+      "label": "Mask of the Dagannoth — Lighthouse",
+      "area": 28,
+      "x": 2510,
+      "z": 3635,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_the_Dagannoth"
+    },
+    {
+      "index": 471,
+      "label": "Mask of the Troll — Trolls: Burthorpe",
+      "area": 28,
+      "x": 2892,
+      "z": 3570,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_the_Troll"
+    },
+    {
+      "index": 472,
+      "label": "Mask of the Ganodermic — Polypore entrance",
+      "area": 28,
+      "x": 3408,
+      "z": 3326,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_the_Ganodermic"
+    },
+    {
+      "index": 473,
+      "label": "Mask of the Automatons — Guthix shrine / automatons access",
+      "area": 28,
+      "x": 2921,
+      "z": 3488,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_the_Automatons"
+    },
+    {
+      "index": 474,
+      "label": "Mask of the Airut — Airut: Piscatoris",
+      "area": 28,
+      "x": 2288,
+      "z": 3545,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_the_Airut"
+    },
+    {
+      "index": 475,
+      "label": "Mask of the Black Demon — Black demons",
+      "area": 17,
+      "x": 2863,
+      "z": 9780,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_the_Black_Demon"
+    },
+    {
+      "index": 476,
+      "label": "Mask of the Aquanites — Aquanites",
+      "area": 5,
+      "x": 2724,
+      "z": 9977,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Mask_of_the_Aquanites"
+    },
+    {
+      "index": 477,
+      "label": "Ring of respawn — Lumbridge courtyard",
+      "area": 28,
+      "x": 3222,
+      "z": 3218,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Ring_of_respawn"
+    },
+    {
+      "index": 478,
+      "label": "Ring of respawn — Falador castle courtyard",
+      "area": 28,
+      "x": 2965,
+      "z": 3338,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Ring_of_respawn"
+    },
+    {
+      "index": 479,
+      "label": "Ring of respawn — Camelot entrance",
+      "area": 28,
+      "x": 2757,
+      "z": 3478,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Ring_of_respawn"
+    },
+    {
+      "index": 480,
+      "label": "Ring of respawn — Soul Wars surface access",
+      "area": 28,
+      "x": 3081,
+      "z": 3471,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Ring_of_respawn"
+    },
+    {
+      "index": 481,
+      "label": "Ring of respawn — Burthorpe bank",
+      "area": 28,
+      "x": 2890,
+      "z": 3548,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Ring_of_respawn"
+    },
+    {
+      "index": 482,
+      "label": "Dragon trinkets — Green dragons: Chaos Tunnels",
+      "area": 23,
+      "x": 3313,
+      "z": 5449,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Dragon_trinkets"
+    },
+    {
+      "index": 483,
+      "label": "Dragon trinkets — Brutal green dragons: Ancient Cavern pier",
+      "area": 28,
+      "x": 2511,
+      "z": 3509,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Dragon_trinkets"
+    },
+    {
+      "index": 484,
+      "label": "Dragon trinkets — Blue dragons",
+      "area": 17,
+      "x": 2908,
+      "z": 9807,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Dragon_trinkets"
+    },
+    {
+      "index": 485,
+      "label": "Dragon trinkets — Brimhaven entrance",
+      "area": 28,
+      "x": 2744,
+      "z": 3152,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Dragon_trinkets"
+    },
+    {
+      "index": 486,
+      "label": "Dragon trinkets — Evil Chickens Lair access",
+      "area": 1,
+      "x": 2450,
+      "z": 4473,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Dragon_trinkets"
+    },
+    {
+      "index": 487,
+      "label": "Dragon trinkets — King Black Dragon artefact",
+      "area": 28,
+      "x": 3067,
+      "z": 3516,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Dragon_trinkets"
+    },
+    {
+      "index": 488,
+      "label": "Dragon trinkets — Queen Black Dragon: Grotworm access",
+      "area": 28,
+      "x": 2992,
+      "z": 3239,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Dragon_trinkets"
+    },
+    {
+      "index": 489,
+      "label": "Metallic dragon trinkets — Brimhaven entrance",
+      "area": 28,
+      "x": 2744,
+      "z": 3152,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 490,
+      "label": "Metallic dragon trinkets — Mithril dragons",
+      "area": 36,
+      "x": 160,
+      "z": 96,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 491,
+      "label": "Metallic dragon trinkets — Adamant dragons access",
+      "area": 28,
+      "x": 2744,
+      "z": 3152,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 492,
+      "label": "Metallic dragon trinkets — Rune dragons access",
+      "area": 28,
+      "x": 2404,
+      "z": 3372,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 493,
+      "label": "Divination outfits: chronicle teleport — May Stormbrewer: Divination Camp",
+      "area": 28,
+      "x": 3120,
+      "z": 3214,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 494,
+      "label": "Divination outfits: chronicle teleport — Guthix shrine",
+      "area": 28,
+      "x": 2921,
+      "z": 3488,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 495,
+      "label": "Modified diviner's headwear: May Stormbrewer — May Stormbrewer: Divination Camp",
+      "area": 28,
+      "x": 3120,
+      "z": 3214,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 496,
+      "label": "Quest / master quest cape — Legends Guild",
+      "area": 28,
+      "x": 2737,
+      "z": 3374,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_quest_cape"
+    },
+    {
+      "index": 497,
+      "label": "Quest / master quest cape — World Gate",
+      "area": 28,
+      "x": 2404,
+      "z": 3372,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_quest_cape"
+    },
+    {
+      "index": 498,
+      "label": "Quest / master quest cape — Varrock Museum",
+      "area": 28,
+      "x": 3259,
+      "z": 3446,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_quest_cape"
+    },
+    {
+      "index": 499,
+      "label": "Quest / master quest cape — Empty Throne Room access",
+      "area": 28,
+      "x": 3358,
+      "z": 3428,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_quest_cape"
+    },
+    {
+      "index": 500,
+      "label": "Quest / master quest cape — Guthix shrine",
+      "area": 28,
+      "x": 2921,
+      "z": 3488,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_quest_cape"
+    },
+    {
+      "index": 501,
+      "label": "Quest / master quest cape — Glacor Cave access",
+      "area": 28,
+      "x": 2883,
+      "z": 3850,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_quest_cape"
+    },
+    {
+      "index": 502,
+      "label": "Quest / master quest cape — Fountain of Heroes access",
+      "area": 28,
+      "x": 2911,
+      "z": 3517,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_quest_cape"
+    },
+    {
+      "index": 503,
+      "label": "Quest / master quest cape — Tears of Guthix access",
+      "area": 28,
+      "x": 3251,
+      "z": 3195,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "https://runescape.wiki/w/Master_quest_cape"
+    },
+    {
+      "index": 504,
+      "label": "Hoardstalker ring — Edgeville chaos druids",
+      "area": 31,
+      "x": 3132,
+      "z": 9935,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 505,
+      "label": "Hoardstalker ring — Dwarven Mine resource dungeon",
+      "area": 18,
+      "x": 3031,
+      "z": 9772,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 506,
+      "label": "Hoardstalker ring — Edgeville hill giants",
+      "area": 31,
+      "x": 3116,
+      "z": 9830,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 507,
+      "label": "Hoardstalker ring — Karamja Volcano resource dungeon",
+      "area": 13,
+      "x": 285,
+      "z": 149,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 508,
+      "label": "Hoardstalker ring — Daemonheim Peninsula Island",
+      "area": 28,
+      "x": 3514,
+      "z": 3666,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 509,
+      "label": "Hoardstalker ring — Mining Guild resource dungeon",
+      "area": 18,
+      "x": 3022,
+      "z": 9742,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 510,
+      "label": "Hoardstalker ring — Braindeath Island Rum-geon",
+      "area": 19,
+      "x": 2147,
+      "z": 5122,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 511,
+      "label": "Hoardstalker ring — Taverley hellhound resource dungeon",
+      "area": 17,
+      "x": 2853,
+      "z": 9841,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 512,
+      "label": "Hoardstalker ring — Taverley blue dragon resource dungeon",
+      "area": 17,
+      "x": 2912,
+      "z": 9810,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 513,
+      "label": "Hoardstalker ring — Varrock Sewers resource dungeon",
+      "area": 31,
+      "x": 3164,
+      "z": 9878,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 514,
+      "label": "Hoardstalker ring — Dragontooth Island resource dungeon",
+      "area": 28,
+      "x": 3808,
+      "z": 3534,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 515,
+      "label": "Hoardstalker ring — Chaos Tunnels resource dungeon",
+      "area": 23,
+      "x": 3144,
+      "z": 5545,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 516,
+      "label": "Hoardstalker ring — Al Kharid resource dungeon",
+      "area": 28,
+      "x": 3297,
+      "z": 3307,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 517,
+      "label": "Hoardstalker ring — Brimhaven Dungeon resource dungeon",
+      "area": 13,
+      "x": 85,
+      "z": 96,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 518,
+      "label": "Hoardstalker ring — Polypore Dungeon resource dungeon",
+      "area": 28,
+      "x": 3408,
+      "z": 3326,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 519,
+      "label": "Hoardstalker ring — Asgarnian Ice resource dungeon",
+      "area": 25,
+      "x": 3007,
+      "z": 9550,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 520,
+      "label": "Hoardstalker ring — Kalgerion resource dungeon",
+      "area": 28,
+      "x": 3402,
+      "z": 3665,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 521,
+      "label": "Hoardstalker ring — Morytania Slayer Tower dungeon",
+      "area": 28,
+      "x": 3434,
+      "z": 3531,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 cape destination list; local map transforms and destination-area anchors"
+    },
+    {
+      "index": 522,
+      "label": "Hoardstalker ring — Gorajo Hoardstalker Dungeon",
+      "area": 231,
+      "x": 2243,
+      "z": 3308,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 Dungeoneering cape destination list; destination-area reference"
+    },
+    {
+      "index": 523,
+      "label": "Hoardstalker ring — Edimmu resource dungeon",
+      "area": 231,
+      "x": 2215,
+      "z": 3380,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 Dungeoneering cape destination list; destination-area reference"
+    },
+    {
+      "index": 524,
+      "label": "Hoardstalker ring — Baxtorian Falls resource dungeon",
+      "area": 28,
+      "x": 2512,
+      "z": 3476,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 Dungeoneering cape destination list; destination-area reference"
+    },
+    {
+      "index": 525,
+      "label": "Rimmington tablet — Rimmington portal",
+      "area": 28,
+      "x": 2954,
+      "z": 3224,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 526,
+      "label": "Taverley tablet — Taverley portal",
+      "area": 28,
+      "x": 2894,
+      "z": 3466,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 527,
+      "label": "Pollnivneach tablet — Pollnivneach portal",
+      "area": 28,
+      "x": 3340,
+      "z": 3003,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 528,
+      "label": "Rellekka tablet — Rellekka portal",
+      "area": 28,
+      "x": 2670,
+      "z": 3630,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 529,
+      "label": "Brimhaven tablet — Brimhaven portal",
+      "area": 28,
+      "x": 2757,
+      "z": 3178,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 530,
+      "label": "Yanille tablet — Yanille portal",
+      "area": 28,
+      "x": 2544,
+      "z": 3096,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 531,
+      "label": "Menaphos tablet — Menaphos portal",
+      "area": 28,
+      "x": 3210,
+      "z": 2710,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 532,
+      "label": "Otot tablet — Otot portal",
+      "area": 28,
+      "x": 3110,
+      "z": 2850,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 533,
+      "label": "Prifddinas tablet — Prifddinas portal",
+      "area": 231,
+      "x": 2137,
+      "z": 3310,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 534,
+      "label": "Air altar teleport — Air altar",
+      "area": 28,
+      "x": 3128,
+      "z": 3405,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 535,
+      "label": "Mind altar teleport — Mind altar",
+      "area": 28,
+      "x": 2980,
+      "z": 3513,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 536,
+      "label": "Water altar teleport — Water altar",
+      "area": 28,
+      "x": 3184,
+      "z": 3165,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 537,
+      "label": "Earth altar teleport — Earth altar",
+      "area": 28,
+      "x": 3305,
+      "z": 3473,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 538,
+      "label": "Fire altar teleport — Fire altar",
+      "area": 28,
+      "x": 3312,
+      "z": 3253,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 539,
+      "label": "Body altar teleport — Body altar",
+      "area": 28,
+      "x": 3053,
+      "z": 3445,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 540,
+      "label": "Cosmic altar teleport — Cosmic altar access",
+      "area": 1,
+      "x": 2413,
+      "z": 4374,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 541,
+      "label": "Chaos altar teleport — Chaos altar",
+      "area": 28,
+      "x": 3058,
+      "z": 3590,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 542,
+      "label": "Nature altar teleport — Nature altar",
+      "area": 28,
+      "x": 2868,
+      "z": 3019,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 543,
+      "label": "Law altar teleport — Law altar",
+      "area": 28,
+      "x": 2858,
+      "z": 3379,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 544,
+      "label": "Death altar teleport — Death altar access",
+      "area": 28,
+      "x": 2350,
+      "z": 3310,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 545,
+      "label": "Blood altar teleport — Blood altar access",
+      "area": 28,
+      "x": 3600,
+      "z": 3310,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 546,
+      "label": "Runecrafting guild teleport — Wizards Tower",
+      "area": 28,
+      "x": 3106,
+      "z": 3162,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 547,
+      "label": "Astral altar teleport — Astral altar",
+      "area": 28,
+      "x": 2157,
+      "z": 3863,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 548,
+      "label": "Magister teleport tablet — Magister / Sophanem Slayer Dungeon access",
+      "area": 28,
+      "x": 3300,
+      "z": 2720,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 549,
+      "label": "'Chipped' Varrock teleport — Varrock Museum",
+      "area": 28,
+      "x": 3259,
+      "z": 3446,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 550,
+      "label": "'Chipped' Lumbridge teleport — Lumbridge Crater: south entrance",
+      "area": 28,
+      "x": 3230,
+      "z": 3205,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 551,
+      "label": "'Chipped' Falador teleport — Falador: south gate",
+      "area": 28,
+      "x": 3006,
+      "z": 3321,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 552,
+      "label": "'Chipped' Camelot teleport — Catherby docks",
+      "area": 28,
+      "x": 2804,
+      "z": 3418,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 553,
+      "label": "'Chipped' Ardougne teleport — West Ardougne plaza",
+      "area": 28,
+      "x": 2525,
+      "z": 3305,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 554,
+      "label": "'Chipped' Watchtower teleport — Observatory assistant",
+      "area": 28,
+      "x": 2440,
+      "z": 3185,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 555,
+      "label": "Max guild Teleport — Max Guild",
+      "area": 231,
+      "x": 2275,
+      "z": 3313,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 556,
+      "label": "Skeletal horror Teleport — Rag and Bone Man",
+      "area": 28,
+      "x": 3359,
+      "z": 3504,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 557,
+      "label": "Kandarin monastery Teleport — Ardougne monastery",
+      "area": 28,
+      "x": 2606,
+      "z": 3221,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 558,
+      "label": "Manor farm Teleport — Manor Farm",
+      "area": 28,
+      "x": 2654,
+      "z": 3358,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 559,
+      "label": "Paddewwa Teleport — Edgeville Dungeon",
+      "area": 31,
+      "x": 3098,
+      "z": 9882,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 560,
+      "label": "Mazcab Teleport — Mazcab",
+      "area": 682,
+      "x": 4316,
+      "z": 819,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 561,
+      "label": "Watchtower Teleport — Watchtower / Yanille",
+      "area": 28,
+      "x": 2549,
+      "z": 3112,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    },
+    {
+      "index": 562,
+      "label": "City of Um Teleport — City of Um ritual site",
+      "area": 742,
+      "x": 1085,
+      "z": 1768,
+      "verification": "destination-area reference; exact landing not verified",
+      "source": "RS3 teleportation catalogue; native item identity and map-area reference"
+    }
+  ],
+  "colourFinding": {
+    "cause": "Existing terrain images retain the early independent 64-world-tile exports with no neighbour padding. The current atlas builder does not recolour them. Native client floor blending/palette is not reproduced exactly.",
+    "confirmedUnchangedSourceTiles": [
+      "50,47",
+      "51,47",
+      "50,48",
+      "51,48"
+    ],
+    "colourRepairApplied": false
+  }
+}

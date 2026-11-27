@@ -1,0 +1,117 @@
+{
+  "cityPins": 91,
+  "embeddedTooltips": 91,
+  "reusedTypedResourceRecords": 7,
+  "newTeleportMethods": 14,
+  "existingCityTeleportMethods": 31,
+  "newMethods": [
+    {
+      "name": "Attuned crystal teleport seed",
+      "destination": "Iorwerth",
+      "x": 2154,
+      "z": 3286
+    },
+    {
+      "name": "Attuned crystal teleport seed",
+      "destination": "Ithell",
+      "x": 2150,
+      "z": 3330
+    },
+    {
+      "name": "Attuned crystal teleport seed",
+      "destination": "Cadarn",
+      "x": 2266,
+      "z": 3330
+    },
+    {
+      "name": "Attuned crystal teleport seed",
+      "destination": "Amlodd",
+      "x": 2150,
+      "z": 3382
+    },
+    {
+      "name": "Attuned crystal teleport seed",
+      "destination": "Trahaearn",
+      "x": 2265,
+      "z": 3286
+    },
+    {
+      "name": "Attuned crystal teleport seed",
+      "destination": "Hefin",
+      "x": 2150,
+      "z": 3435
+    },
+    {
+      "name": "Attuned crystal teleport seed",
+      "destination": "Crwys",
+      "x": 2267,
+      "z": 3383
+    },
+    {
+      "name": "Attuned crystal teleport seed",
+      "destination": "Meilyr",
+      "x": 2266,
+      "z": 3434
+    },
+    {
+      "name": "Clan vexillum",
+      "destination": "Tower of Voices clan portal",
+      "x": 2220,
+      "z": 3373
+    },
+    {
+      "name": "House Teleport",
+      "destination": "Prifddinas house portal",
+      "x": 2168,
+      "z": 3334
+    },
+    {
+      "name": "Keldagrim camouflage outfit",
+      "destination": "Tower of Voices",
+      "x": 2208,
+      "z": 3361
+    },
+    {
+      "name": "Prifddinas camouflage outfit",
+      "destination": "Tower of Voices",
+      "x": 2208,
+      "z": 3361
+    },
+    {
+      "name": "Desert camouflage outfit",
+      "destination": "Tower of Voices",
+      "x": 2208,
+      "z": 3361
+    },
+    {
+      "name": "Completionist cape",
+      "destination": "Max Guild",
+      "x": 2275,
+      "z": 3313
+    }
+  ],
+  "coordinateCorrections": [
+    {
+      "methods": [
+        "Master constructor's outfit \u2014 Prifddinas portal",
+        "Prifddinas tablet"
+      ],
+      "from": [
+        2137,
+        3310
+      ],
+      "to": [
+        2168,
+        3334
+      ],
+      "source": "Native placed house portal 139156 and map label 621"
+    }
+  ],
+  "sources": [
+    "https://runescape.wiki/w/Prifddinas",
+    "https://runescape.wiki/w/Attuned_crystal_teleport_seed",
+    "https://runescape.wiki/w/Clan_vexillum",
+    "https://runescape.wiki/w/Max_Guild"
+  ],
+  "exactTeleportLandingTilesVerified": false
+}

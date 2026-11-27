@@ -1,0 +1,451 @@
+{
+  "chunksAudited": 76,
+  "chunksChanged": 75,
+  "pixelsChanged": 18192634,
+  "tiles": [
+    {
+      "key": "c_10_10",
+      "changed": 245211,
+      "preserved": 75057
+    },
+    {
+      "key": "c_10_11",
+      "changed": 344252,
+      "preserved": 29169
+    },
+    {
+      "key": "c_10_12",
+      "changed": 444777,
+      "preserved": 186930
+    },
+    {
+      "key": "c_10_13",
+      "changed": 613088,
+      "preserved": 169202
+    },
+    {
+      "key": "c_10_14",
+      "changed": 370344,
+      "preserved": 246591
+    },
+    {
+      "key": "c_10_15",
+      "changed": 54190,
+      "preserved": 142530
+    },
+    {
+      "key": "c_10_9",
+      "changed": 18608,
+      "preserved": 1280
+    },
+    {
+      "key": "c_11_10",
+      "changed": 36598,
+      "preserved": 3178
+    },
+    {
+      "key": "c_11_11",
+      "changed": 426446,
+      "preserved": 14898
+    },
+    {
+      "key": "c_11_12",
+      "changed": 463032,
+      "preserved": 108372
+    },
+    {
+      "key": "c_11_13",
+      "changed": 633226,
+      "preserved": 314998
+    },
+    {
+      "key": "c_11_14",
+      "changed": 615257,
+      "preserved": 418303
+    },
+    {
+      "key": "c_11_15",
+      "changed": 92455,
+      "preserved": 375535
+    },
+    {
+      "key": "c_12_10",
+      "changed": 125836,
+      "preserved": 329964
+    },
+    {
+      "key": "c_12_11",
+      "changed": 9296,
+      "preserved": 120362
+    },
+    {
+      "key": "c_12_12",
+      "changed": 52320,
+      "preserved": 357282
+    },
+    {
+      "key": "c_12_13",
+      "changed": 685481,
+      "preserved": 323709
+    },
+    {
+      "key": "c_12_14",
+      "changed": 916378,
+      "preserved": 107415
+    },
+    {
+      "key": "c_12_15",
+      "changed": 301059,
+      "preserved": 226735
+    },
+    {
+      "key": "c_13_10",
+      "changed": 24007,
+      "preserved": 27438
+    },
+    {
+      "key": "c_13_12",
+      "changed": 28783,
+      "preserved": 363431
+    },
+    {
+      "key": "c_13_13",
+      "changed": 610566,
+      "preserved": 179463
+    },
+    {
+      "key": "c_13_14",
+      "changed": 332267,
+      "preserved": 54005
+    },
+    {
+      "key": "c_13_15",
+      "changed": 164131,
+      "preserved": 17421
+    },
+    {
+      "key": "c_14_11",
+      "changed": 287484,
+      "preserved": 38548
+    },
+    {
+      "key": "c_14_12",
+      "changed": 296398,
+      "preserved": 130975
+    },
+    {
+      "key": "c_14_13",
+      "changed": 278493,
+      "preserved": 96197
+    },
+    {
+      "key": "c_14_15",
+      "changed": 27078,
+      "preserved": 23066
+    },
+    {
+      "key": "c_14_16",
+      "changed": 394040,
+      "preserved": 112792
+    },
+    {
+      "key": "c_14_17",
+      "changed": 102365,
+      "preserved": 39203
+    },
+    {
+      "key": "c_14_7",
+      "changed": 56302,
+      "preserved": 4338
+    },
+    {
+      "key": "c_14_8",
+      "changed": 61923,
+      "preserved": 10989
+    },
+    {
+      "key": "c_14_9",
+      "changed": 51840,
+      "preserved": 9088
+    },
+    {
+      "key": "c_15_11",
+      "changed": 8176,
+      "preserved": 0
+    },
+    {
+      "key": "c_15_12",
+      "changed": 1888,
+      "preserved": 16
+    },
+    {
+      "key": "c_15_13",
+      "changed": 512,
+      "preserved": 0
+    },
+    {
+      "key": "c_15_15",
+      "changed": 104653,
+      "preserved": 64979
+    },
+    {
+      "key": "c_15_16",
+      "changed": 696164,
+      "preserved": 246288
+    },
+    {
+      "key": "c_15_17",
+      "changed": 402757,
+      "preserved": 141555
+    },
+    {
+      "key": "c_15_6",
+      "changed": 101904,
+      "preserved": 112
+    },
+    {
+      "key": "c_15_7",
+      "changed": 192664,
+      "preserved": 60248
+    },
+    {
+      "key": "c_15_8",
+      "changed": 78353,
+      "preserved": 3439
+    },
+    {
+      "key": "c_16_12",
+      "changed": 491103,
+      "preserved": 97861
+    },
+    {
+      "key": "c_16_13",
+      "changed": 633007,
+      "preserved": 212481
+    },
+    {
+      "key": "c_16_14",
+      "changed": 17616,
+      "preserved": 49488
+    },
+    {
+      "key": "c_16_15",
+      "changed": 34396,
+      "preserved": 59204
+    },
+    {
+      "key": "c_16_16",
+      "changed": 212763,
+      "preserved": 75285
+    },
+    {
+      "key": "c_16_17",
+      "changed": 71718,
+      "preserved": 43178
+    },
+    {
+      "key": "c_16_5",
+      "changed": 108040,
+      "preserved": 6654
+    },
+    {
+      "key": "c_16_6",
+      "changed": 179719,
+      "preserved": 11743
+    },
+    {
+      "key": "c_16_7",
+      "changed": 35512,
+      "preserved": 696
+    },
+    {
+      "key": "c_17_12",
+      "changed": 414349,
+      "preserved": 217667
+    },
+    {
+      "key": "c_17_13",
+      "changed": 430609,
+      "preserved": 330413
+    },
+    {
+      "key": "c_17_14",
+      "changed": 112,
+      "preserved": 5312
+    },
+    {
+      "key": "c_17_7",
+      "changed": 160994,
+      "preserved": 22734
+    },
+    {
+      "key": "c_18_12",
+      "changed": 168154,
+      "preserved": 69350
+    },
+    {
+      "key": "c_18_13",
+      "changed": 270305,
+      "preserved": 341279
+    },
+    {
+      "key": "c_18_14",
+      "changed": 186,
+      "preserved": 5382
+    },
+    {
+      "key": "c_7_11",
+      "changed": 4672,
+      "preserved": 3408
+    },
+    {
+      "key": "c_7_12",
+      "changed": 365568,
+      "preserved": 71968
+    },
+    {
+      "key": "c_7_14",
+      "changed": 18948,
+      "preserved": 796
+    },
+    {
+      "key": "c_8_10",
+      "changed": 75932,
+      "preserved": 1556
+    },
+    {
+      "key": "c_8_11",
+      "changed": 441849,
+      "preserved": 82798
+    },
+    {
+      "key": "c_8_12",
+      "changed": 311174,
+      "preserved": 26570
+    },
+    {
+      "key": "c_8_13",
+      "changed": 53729,
+      "preserved": 58703
+    },
+    {
+      "key": "c_8_14",
+      "changed": 214558,
+      "preserved": 12450
+    },
+    {
+      "key": "c_8_15",
+      "changed": 113938,
+      "preserved": 48542
+    },
+    {
+      "key": "c_8_16",
+      "changed": 6032,
+      "preserved": 6224
+    },
+    {
+      "key": "c_9_10",
+      "changed": 24208,
+      "preserved": 384
+    },
+    {
+      "key": "c_9_11",
+      "changed": 504088,
+      "preserved": 66267
+    },
+    {
+      "key": "c_9_12",
+      "changed": 840335,
+      "preserved": 160944
+    },
+    {
+      "key": "c_9_13",
+      "changed": 815993,
+      "preserved": 93367
+    },
+    {
+      "key": "c_9_14",
+      "changed": 212837,
+      "preserved": 47439
+    },
+    {
+      "key": "c_9_15",
+      "changed": 203844,
+      "preserved": 187661
+    },
+    {
+      "key": "c_9_16",
+      "changed": 5744,
+      "preserved": 7968
+    }
+  ],
+  "extraction": {
+    "chunks": 76,
+    "sampledCells": 4680764,
+    "mappedRegions": 1275,
+    "unavailable": [
+      {
+        "region": "25_190",
+        "reason": "Missing legacy/NXT floor data"
+      },
+      {
+        "region": "26_190",
+        "reason": "Missing legacy/NXT floor data"
+      },
+      {
+        "region": "27_190",
+        "reason": "Missing legacy/NXT floor data"
+      },
+      {
+        "region": "28_190",
+        "reason": "Missing legacy/NXT floor data"
+      },
+      {
+        "region": "29_190",
+        "reason": "Missing legacy/NXT floor data"
+      },
+      {
+        "region": "52_20",
+        "reason": "Missing legacy/NXT floor data"
+      },
+      {
+        "region": "53_20",
+        "reason": "Missing legacy/NXT floor data"
+      },
+      {
+        "region": "52_21",
+        "reason": "Missing legacy/NXT floor data"
+      },
+      {
+        "region": "52_22",
+        "reason": "Missing legacy/NXT floor data"
+      },
+      {
+        "region": "58_28",
+        "reason": "Missing legacy/NXT floor data"
+      },
+      {
+        "region": "59_28",
+        "reason": "Missing legacy/NXT floor data"
+      },
+      {
+        "region": "64_28",
+        "reason": "Missing legacy/NXT floor data"
+      }
+    ],
+    "halo": 16,
+    "excludedUpperFloorCity": "Prifddinas"
+  },
+  "verification": {
+    "chunksAudited": 76,
+    "chunksChanged": 75,
+    "pixelsChecked": 78643200,
+    "protectedWaterAndWhitePixels": 50246892,
+    "prifddinasPixelsUnchanged": 786432,
+    "changedPixels": 18192634,
+    "largeGroundStepsChecked": 37462,
+    "reducedGroundSteps": 33790,
+    "meanGroundStepBefore": 28.919310675827305,
+    "meanGroundStepAfter": 16.85110568137104
+  }
+}
