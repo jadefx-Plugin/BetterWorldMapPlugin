@@ -1,6 +1,6 @@
 {
   "name": "Better World Map",
-  "version": "0.18.3",
+  "version": "1.2.0.0",
   "requiredDependencies": {
     "prettyui": 6398181
   },

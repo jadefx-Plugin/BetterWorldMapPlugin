@@ -1,3 +1,4 @@
+local Native = require("src/ui/native_components")
 -- main.lua
 -- Loaded by the RuneScape plugin host.
 -- Coordinates plugin startup, map state, controls, local client polling and shutdown.
@@ -7,35 +8,37 @@ Better World Map entry point and UI/event coordinator.
 Creates a separate PrettyUI map window; map clicks pan/select UI and never walk the player.
 Owns view state (cx/cz in map tiles, scale in interface units per tile), persistence,
 area selection, terrain drawing, catalogues, and plugin event subscriptions.
-See CODE_GUIDE.md for the module/data inventory and lifecycle. PluginShutdown releases
+See docs/CODE_GUIDE.md for the module/data inventory and lifecycle. PluginShutdown releases
 subscriptions and owned UI; the caller must still verify behavior in the live client.
 ]]
 
 local P = prettyui
 assert(P and P.Window and P.SimpleButton, "PrettyUI dependency unavailable")
+assert(P.NewComponent and P.WithCategoryBatch,
+    "Better World Map requires PrettyUI 1.3.3 or newer; update PrettyUI in the Plugin Hub")
 
-local Map = require("map_math")
+local Map = require("src/map/map_math")
 
-local Areas = require("map_areas")
+local Areas = require("src/map/map_areas")
 
-local Pin = require("map_pin")
+local Pin = require("src/pins/map_pin")
 
-local WorldMapIcons = require("world_map_icons")
+local WorldMapIcons = require("src/pins/world_map_icons")
 local sidebar, resizeSidebar, lastSidebarHeight
 local mapKey
 local mapIcons
 local nearbyNPCs
 local mapResize
 
-local preferences = require("map_settings").new(PersistentDB)
+local preferences = require("src/core/map_settings").new(PersistentDB)
 local appearance = preferences.value
 Pin.SetScale(appearance.mapPinSize / 100)
 local settingsUI, mapClickOverride
 
-local shortcut = require("map_shortcut").new(appearance.mapKeybind)
+local shortcut = require("src/core/map_shortcut").new(appearance.mapKeybind)
 -- Cross-file controller: movement_opacity.lua samples only the local player and
 -- fades owned window roots; it does not depend on which map is being displayed.
-local movementOpacity = require("movement_opacity").new(appearance)
+local movementOpacity = require("src/core/movement_opacity").new(appearance)
 -- Calls map_areas.lua through Areas.Get(...): returns an area definition, with a surface
 -- fallback for unknown IDs.
 local activeArea = Areas.Get(preferences.value.mapArea)
@@ -50,27 +53,22 @@ local filterOptions = {
     hideTeleportRequirements = preferences.value.hideTeleportRequirements,
 }
 
-local questFilter = require("quest_pin_filter").new(filterOptions)
-local teleportFilter = require("teleport_filter").new(filterOptions)
+local questFilter = require("src/pins/quest_pin_filter").new(filterOptions)
+local teleportFilter = require("src/pins/teleport_filter").new(filterOptions)
 teleportFilter:Refresh()
 -- Calls quest_pin_filter.lua through questFilter:Refresh(...): returns whether eligibility
 -- changed, allowing cached pins to be invalidated.
 questFilter:Refresh()
 
-local tiles = require("surface_chunks")
-local terrainResources = Plugin.resources.surface_chunks
-assert(
-    terrainResources,
-    "Surface chunk resources are not registered yet. Run poff BetterWorldMap, then prf, then pon BetterWorldMap."
-)
+local surfaceTerrain
 
-local Bestiary = require("bestiary")
+local Bestiary = require("src/catalogues/bestiary")
 
-local NpcData = require("npc_data")
+local NpcData = require("data/catalogues/npc_data")
 
-local MapHover = require("map_hover")
+local MapHover = require("src/pins/map_hover")
 
-local DropMenu = require("drop_menu")
+local DropMenu = require("src/integration/drop_menu")
 local hoverCard
 local selectedMonster
 local mapBackground
@@ -81,12 +79,14 @@ local showLabels = preferences.value.showLabels
 local showSidebar = preferences.value.showSidebar
 local showOverview = preferences.value.showOverview
 local overviewBounds = { x = 1856, z = 1344, w = 3008, h = 3200 }
-local sprites, labels = {}, {}
+local labels = {}
 local cx, cz, scale, follow = 3222, 3218, 2, true
 local player, drag, lastError = nil, nil, nil
 local dirty, retry = true, 0
 local lastTerrainView
-local Visual = require("visual_updates")
+local lastOverviewWidth,lastOverviewHeight
+local mapToggles
+local Visual = require("src/ui/visual_updates")
 -- Persist a defensive snapshot; UI components can already be unavailable during shutdown.
 
 -- UI changes, the logic tick and shutdown call this; builds a preference snapshot and delegates
@@ -125,6 +125,7 @@ local function saveSettings()
         npcPinColor = appearance.npcPinColor,
         transparency = appearance.transparency,
         walkingTransparency = appearance.walkingTransparency,
+        useNativeTransparency = appearance.useNativeTransparency,
         monsterPinTransparency = appearance.monsterPinTransparency,
         npcPinTransparency = appearance.npcPinTransparency,
         mapPinSize = appearance.mapPinSize,
@@ -166,7 +167,7 @@ local places = {
 -- Private UI factory; creates a Text owned by parent using value and local x/y/w/h, then returns
 -- that component for later updates.
 local function text(parent, value, x, y, w, h)
-    local t = ui.Text.new(parent)
+    local t = Native.New(ui.Text, parent)
     t:SetPos(x, y)
     t:SetSize(w, h)
     t.content = value
@@ -179,7 +180,7 @@ end
 -- Private UI factory; creates and returns a decorative Rectangle in parent using local geometry
 -- and packed RGBA colour. The caller chooses whether to fill it.
 local function rect(parent, x, y, w, h, colour)
-    local c = ui.Rectangle.new(parent)
+    local c = Native.New(ui.Rectangle, parent)
     c:SetPos(x, y)
     c:SetSize(w, h)
     c.rgba = colour
@@ -229,10 +230,7 @@ local function selectArea(id, keepView, returning, entryPoint)
     if mapBackground then
         mapBackground.rgba = activeArea.id == 28 and 0x60769AFF or 0x000000FF
     end
-    for key, sprite in pairs(sprites) do
-        sprite:Destroy()
-        sprites[key] = nil
-    end
+    if surfaceTerrain then surfaceTerrain:Clear() end
 
     if areaTerrain then
         areaTerrain:Clear()
@@ -241,8 +239,8 @@ local function selectArea(id, keepView, returning, entryPoint)
         -- Calls world_map_icons.lua through mapIcons:SetPoints(...): replaces the
         -- point/index namespace for the selected map.
         mapIcons:SetPoints(
-            activeArea.id == 28 and require("world_map_data")
-                or require("dungeon_return").Build(
+            activeArea.id == 28 and require("data/pins/world_map_data")
+                or require("src/dungeons/dungeon_return").Build(
                     activeArea,
                     entryPoint,
                     mapHistory[#mapHistory] and mapHistory[#mapHistory].id,
@@ -324,8 +322,7 @@ local function returnToPreviousMap()
         selectArea(28, false, true)
     end
 end
--- Render only dirty view state. Surface ranges are converted from 64-tile squares to 256-tile
--- chunks.
+-- Render dirty views through the original surface atlas renderer or underground renderer.
 
 -- The logic loop calls only when dirty; reads current view state, draws terrain, delegates
 -- markers/NPC overlays, updates the overview and clears the dirty flag.
@@ -334,6 +331,11 @@ local function draw()
     if not view then
         return
     end
+    if mapToggles then
+        mapToggles.follow:SetToggleState(follow)
+        mapToggles.legend:SetToggleState(showSidebar)
+        mapToggles.overview:SetToggleState(showOverview)
+    end
     local w, h = view.width, view.height
     -- Terrain and labels depend on the viewport, not player-marker motion or
     -- appearance changes. Reuse their native layout until those inputs change.
@@ -341,69 +343,8 @@ local function draw()
         table.concat({ activeArea.id, cx, cz, scale, w, h, tostring(showLabels) }, ":")
     local terrainChanged = terrainView ~= lastTerrainView
     if terrainChanged then
-        local used = {}
-        -- Calls map_math.lua through Map.range(...): returns source-square bounds, which main
-        -- converts into chunk indices.
-        local x0, x1, z0, z1 = Map.range(cx, cz, scale, w, h)
-        x0, x1, z0, z1 =
-            math.floor(x0 / 4), math.floor(x1 / 4), math.floor(z0 / 4), math.floor(z1 / 4)
         if activeArea.id == 28 then
-            -- Free offscreen terrain before creating incoming tiles.
-            local stale = {}
-            for key, sprite in pairs(sprites) do
-                local tx, tz = key:match("^c_(%d+)_(%d+)$")
-                tx = tonumber(tx)
-                tz = tonumber(tz)
-                if not tx or tx < x0 or tx > x1 or tz < z0 or tz > z1 then
-                    sprite:Destroy()
-                    stale[#stale + 1] = key
-                end
-            end
-            for _, key in ipairs(stale) do
-                sprites[key] = nil
-            end
-            for z = z0, z1 do
-                for x = x0, x1 do
-                    local key = "c_" .. x .. "_" .. z
-                    if tiles[key] then
-                        local s = sprites[key]
-                        if not s then
-                            local resource = terrainResources[key]
-                            if resource then
-                                s = ui.Sprite.new(tileLayer)
-                                s.sprite = resource
-                                s.clickthrough = true
-                                sprites[key] = s
-                            end
-                        end
-                        if s then
-                            -- Calls map_math.lua through Map.project(...): takes world
-                            -- position/view geometry and returns local UI x/y.
-                            local px, py = Map.project(x * 256, (z + 1) * 256, cx, cz, scale, w, h)
-                            -- Shared rounded edges keep neighbouring tiles flush without
-                            -- stretching them over one another.
-                            s:SetPos(math.floor(px), math.floor(py))
-                            s:SetSize(
-                                math.floor(px + 256 * scale) - math.floor(px),
-                                math.floor(py + 256 * scale) - math.floor(py)
-                            )
-                            s.hidden = false
-                            used[key] = true
-                        end
-                    end
-                end
-            end
-            -- Destroy offscreen components so panning does not grow the component pool.
-            local remove = {}
-            for key, s in pairs(sprites) do
-                if not used[key] then
-                    s:Destroy()
-                    remove[#remove + 1] = key
-                end
-            end
-            for _, key in ipairs(remove) do
-                sprites[key] = nil
-            end
+            surfaceTerrain:Draw(cx,cz,scale,w,h)
         else
             -- Calls area_terrain.lua through areaTerrain:Draw(...): returns the visible
             -- underground image-piece count.
@@ -482,7 +423,8 @@ local function draw()
     if overview then
         local b = overviewBounds
         local ow, oh = overview.width, overview.height
-        if terrainChanged then
+        if terrainChanged or ow~=lastOverviewWidth or oh~=lastOverviewHeight then
+            lastOverviewWidth,lastOverviewHeight=ow,oh
             local left = (cx - w / 2 / scale - b.x) / b.w * ow
             local right = (cx + w / 2 / scale - b.x) / b.w * ow
             local top = (b.z + b.h - (cz + h / 2 / scale)) / b.h * oh
@@ -534,6 +476,7 @@ local function create()
     if not parent then
         return false
     end
+    return Native.Batch(parent, function()
     -- Calls map_settings.lua through preferences:Geometry(...): returns a clamped initial
     -- window rectangle.
     local geometry = preferences:Geometry(parent)
@@ -543,9 +486,16 @@ local function create()
         y = geometry.y,
         width = geometry.width,
         height = geometry.height,
-        minWidth = 820,
-        minHeight = 600,
+        minWidth = 520,
+        minHeight = 360,
         resizable = true,
+        categoryID = "auto",
+        respectInterfaceLock = false,
+        useNativeTransparency = appearance.useNativeTransparency,
+        onPositionChange = function()
+            if window then require("src/ui/map_resize").SyncHeader(window) end
+            saveSettings()
+        end,
         scrollable = false,
         destroyOnClose = false,
         -- Callback/function onClose; inputs: none.
@@ -573,13 +523,22 @@ local function create()
         end,
     })
     local root = window.content
-    settingsUI = require("map_preferences_ui").new(
+    window.titleControls = {left=40,right=282}
+    if window.titleText then
+        window.titleText:SetPos(40,2)
+        window.titleText:SetSize(-322,28,1,0)
+    end
+    settingsUI = require("src/ui/map_preferences_ui").new(
         P,
         parent,
         window,
         appearance,
         shortcut,
         function()
+            window:SetUseNativeTransparency(appearance.useNativeTransparency)
+            if hoverCard and hoverCard.popup then
+                hoverCard.popup:SetUseNativeTransparency(appearance.useNativeTransparency)
+            end
             if nearbyNPCs then
                 nearbyNPCs:SetColour(appearance.monsterPinColor)
                 nearbyNPCs:SetAppearance(appearance)
@@ -594,7 +553,7 @@ local function create()
         end,
         saveSettings
     )
-    mapClickOverride = require("map_click_override").new(appearance, function()
+    mapClickOverride = require("src/integration/map_click_override").new(appearance, function()
         if window.root.hidden then
             window:Show()
         else
@@ -620,7 +579,7 @@ local function create()
     -- Private helper inside create; draws spriteID at right-relative x and installs a click
     -- that calls zoom(factor). Returns no value.
     local function zoomButton(spriteID, factor, x)
-        local control = ui.Sprite.new(root)
+        local control = Native.New(ui.Sprite, window.root)
         control.spriteID = spriteID
         control:SetSize(20, 20)
         control:SetPos(x, 6, 1, 0)
@@ -631,30 +590,38 @@ local function create()
             return false
         end)
     end
-    zoomButton(20263, 0.5, -116)
-    zoomButton(18975, 2, -32)
-    zoomText = text(root, "100%", 0, 5, 56, 22)
-    zoomText:SetPos(-92, 5, 1, 0)
+    zoomButton(20263, 0.5, -160)
+    zoomButton(18975, 2, -82)
+    zoomText = text(window.root, "100%", 0, 5, 52, 22)
+    zoomText:SetPos(-138, 5, 1, 0)
     zoomText.alignHorizontal = ui.AlignMode.CENTRE
     zoomText.alignVertical = ui.AlignMode.CENTRE
-    local followButton = button("Follow me", function()
-        follow = true
+    local ToggleButton=require("src/ui/map_toggle_button")
+    local followButton = ToggleButton.new(P,window.root,"",function(active)
+        follow = active
         player = nil
         dirty = true
-    end, 0, 4, 96)
-    followButton.root:SetPos(338, 4)
-    sidebar = ui.Layer.new(root)
+    end,{x=8,y=4,width=24,height=24,active=follow})
+    followButton:SetTooltip("Follow Character")
+    for _,span in ipairs({{8,7,8,1},{8,16,8,1},{7,8,1,8},{16,8,1,8},
+        {11,3,2,6},{11,15,2,6},{3,11,6,2},{15,11,6,2},{11,11,2,2}})do
+        local art=rect(followButton.root,span[1],span[2],span[3],span[4],0xEEE5CCFF)
+        art.fill=true
+        followButton.toggleArt[#followButton.toggleArt+1]=art
+    end
+    followButton:SetToggleState(follow,true)
+    sidebar = Native.New(ui.Layer, root)
     sidebar:SetPos(0, 34)
     sidebar:SetSize(232, -34, 0, 1)
     sidebar.clickthrough = false
     local panelBg = rect(sidebar, 0, 0, 232, 1, 0x34312BFF)
     panelBg.fill = true
     panelBg:SetSize(0, 0, 1, 1)
-    overview = ui.Layer.new(sidebar)
+    overview = Native.New(ui.Layer, sidebar)
     overview:SetPos(0, 0)
     overview:SetSize(232, 232)
     overview.clickthrough = false
-    local mini = ui.Sprite.new(overview)
+    local mini = Native.New(ui.Sprite, overview)
     overviewImage = mini
     mini.sprite = Plugin.resources.overview
     mini:SetSize(0, 0, 1, 1)
@@ -668,6 +635,7 @@ local function create()
     end
     overviewMarker = rect(overview, 0, 0, 4, 4, 0xFFFFFFFF)
     -- Keep a permanent outline separate from the moving viewport frame.
+    local overviewBorders={}
     for _, edge in ipairs({
         { 0, 0, 232, 3 },
         { 0, 229, 232, 3 },
@@ -676,6 +644,7 @@ local function create()
     }) do
         local border = rect(overview, edge[1], edge[2], edge[3], edge[4], 0x423A2CFF)
         border.fill = true
+        overviewBorders[#overviewBorders+1]=border
     end
     local overviewDrag
     -- UI event: overview invokes the handler on ONCLICK. Pointer coordinates, when supplied,
@@ -860,7 +829,7 @@ local function create()
             end,
         })
 
-        virtualResults = require("virtual_results").new(resultList)
+        virtualResults = require("src/ui/virtual_results").new(resultList)
         local clearMarkers = bestiary:AddSimpleButton("Clear markers", function()
             if hoverCard then
                 hoverCard:Hide()
@@ -902,7 +871,7 @@ local function create()
         end,
     })
 
-    mapKey = require("map_key").new(P, keySection.content, function(enabled)
+    mapKey = require("src/ui/map_key").new(P, keySection.content, function(enabled)
         -- Calls world_map_icons.lua through mapIcons:SetFilters(...): delegates this
         -- operation to the module that owns that data/UI; see its SetFilters function
         -- contract.
@@ -924,7 +893,7 @@ local function create()
         labels = showLabels,
         hideTeleportRequirements = filterOptions.hideTeleportRequirements,
     }
-    local filterMenu = require("map_filters").new(P, root, filterState, function()
+    local filterMenu = require("src/ui/map_filters").new(P, window.root, filterState, function()
         filterOptions.showCompleted = filterState.showCompleted
         filterOptions.showRequirementsUnmet = filterState.showRequirementsUnmet
         filterOptions.hideLiveNPCs = not filterState.nearbyMonsters
@@ -946,7 +915,7 @@ local function create()
     local filterPanel = filterMenu.panel
     questFilter:Refresh()
 
-    mapSelector = P.ComboBox.new(root, {
+    mapSelector = require("src/ui/map_dropdown").Optimize(P.ComboBox.new(root, {
         x = 76,
         y = 4,
         width = 250,
@@ -976,20 +945,21 @@ local function create()
                 pendingArea = id
             end
         end,
-    })
-    view = ui.Layer.new(root)
+    }))
+    view = Native.New(ui.Layer, root)
     view:SetPos(0, 34)
     view:SetSize(0, -34, 1, 1)
     view.clickthrough = false
     mapBackground = rect(view, 0, 0, 1, 1, activeArea.id == 28 and 0x60769AFF or 0x000000FF)
     mapBackground.fill = true
     mapBackground:SetSize(0, 0, 1, 1)
-    tileLayer = ui.Layer.new(view)
+    tileLayer = Native.New(ui.Layer, view)
     tileLayer:SetSize(0, 0, 1, 1)
     tileLayer.clickthrough = true
 
-    areaTerrain = require("area_terrain").new(tileLayer)
-    mapIconLayer = ui.Layer.new(view)
+    surfaceTerrain = require("src/render/terrain_renderer").new(tileLayer)
+    areaTerrain = require("src/render/area_terrain").new(tileLayer)
+    mapIconLayer = Native.New(ui.Layer, view)
     mapIconLayer:SetSize(0, 0, 1, 1)
     mapIconLayer.clickthrough = true
     mapIcons = WorldMapIcons.new(mapIconLayer)
@@ -997,21 +967,21 @@ local function create()
     mapIcons:SetPinScale(appearance.mapPinSize / 100)
     mapIcons.questFilter = questFilter
     mapIcons:SetFilters(mapKey.enabled)
-    referenceLayer = ui.Layer.new(view)
+    referenceLayer = Native.New(ui.Layer, view)
     referenceLayer:SetSize(0, 0, 1, 1)
     referenceLayer.clickthrough = true
-    referencePins = require("reference_pins").new(referenceLayer)
+    referencePins = require("src/pins/reference_pins").new(referenceLayer)
     referencePins:SetOpacity(movementOpacity.factor)
     marker = Pin.new(view, true)
-    local nearbyLayer = ui.Layer.new(view)
+    local nearbyLayer = Native.New(ui.Layer, view)
     nearbyLayer:SetSize(0, 0, 1, 1)
     nearbyLayer.clickthrough = true
 
-    nearbyNPCs = require("nearby_npcs").new(nearbyLayer)
+    nearbyNPCs = require("src/catalogues/nearby_npcs").new(nearbyLayer)
     nearbyNPCs:SetColour(appearance.monsterPinColor)
     nearbyNPCs:SetAppearance(appearance)
     nearbyNPCs:SetOpacity(movementOpacity.factor)
-    input = ui.Layer.new(view)
+    input = Native.New(ui.Layer, view)
     input:SetSize(0, 0, 1, 1)
     input.clickthrough = false
     -- The main input layer handles map panning and local popup/map selection.
@@ -1112,7 +1082,18 @@ local function create()
         sidebar.hidden = not (showSidebar or showOverview)
         sidebar.clickthrough = not showSidebar
         -- Keep the overview usable on its own without painting an empty key panel.
-        panelBg:SetSize(0, showSidebar and 0 or 232, 1, showSidebar and 1 or 0)
+        local reserve=showSidebar and 76 or 0
+        for _,catalog in ipairs(catalogs)do
+            if showSidebar and catalog.section.expanded then reserve=catalog.key and 200 or 230 end
+        end
+        local overviewSize=math.max(64,math.min(232,sidebar.height-reserve))
+        overview:SetPos(math.floor((232-overviewSize)/2),0)
+        overview:SetSize(overviewSize,overviewSize)
+        overviewBorders[1]:SetSize(overviewSize,3)
+        overviewBorders[2]:SetPos(0,overviewSize-3);overviewBorders[2]:SetSize(overviewSize,3)
+        overviewBorders[3]:SetSize(3,overviewSize)
+        overviewBorders[4]:SetPos(overviewSize-3,0);overviewBorders[4]:SetSize(3,overviewSize)
+        panelBg:SetSize(0, showSidebar and 0 or overviewSize, 1, showSidebar and 1 or 0)
         overview.hidden = not showOverview
         -- Panels overlay a fixed full-width map, so toggles never change its viewport.
         view:SetPos(0, 34)
@@ -1121,13 +1102,13 @@ local function create()
         if not filterPanel.hidden then
             filterPanel:MoveToFront()
         end
-        local startY = showOverview and 236 or 4
-        local listHeight = math.max(80, sidebar.height - startY - 190)
+        local startY = showOverview and (overviewSize+4) or 4
+        local listHeight = math.max(28, sidebar.height - startY - 186)
         local y = startY
         for _, catalog in ipairs(catalogs) do
             catalog.section.root.hidden = not showSidebar
             if catalog.key then
-                local height = math.max(110, sidebar.height - y - 32)
+                local height = math.max(64, sidebar.height - y - 36)
                 catalog.section:_SetContentHeight(height + 8)
                 catalog.key:SetSize(height)
                 catalog.section.root:SetPos(4, y)
@@ -1143,45 +1124,49 @@ local function create()
         end
         dirty = true
     end
-    button(id.Sprite.RS3_ICON_INFO_21PX_2, function()
-        showSidebar = not showSidebar
+    local legendToggle=ToggleButton.new(P,root,id.Sprite.RS3_ICON_INFO_21PX_2,function(active)
+        showSidebar = active
         if not showSidebar then
             shortcut:Clear()
         end
         resizeContents()
         saveSettings()
-    end, 8, 4, 24):SetTooltip("Show / hide legend and key panel")
-    button(id.Sprite.RS3_ICON_WARDROBE_EFFECTS_24PX_2, function()
-        showOverview = not showOverview
+    end,{x=8,y=4,width=24,height=24,active=showSidebar})
+    legendToggle:SetTooltip("Show / hide legend and key panel")
+    local overviewToggle=ToggleButton.new(P,root,id.Sprite.RS3_ICON_WARDROBE_EFFECTS_24PX_2,function(active)
+        showOverview = active
         resizeContents()
         saveSettings()
-    end, 40, 4, 24):SetTooltip("Show / hide overview map")
+    end,{x=40,y=4,width=24,height=24,active=showOverview})
+    overviewToggle:SetTooltip("Show / hide overview map")
+    mapToggles={follow=followButton,legend=legendToggle,overview=overviewToggle}
     resizeSidebar = resizeContents
     -- UI event: window.root invokes the handler on ONRESIZE. Pointer coordinates, when
     -- supplied, are local to this component.
     window.root:Subscribe(ui.Hook.ONRESIZE, resizeContents)
     hoverCard = MapHover.new(P, view, input, root, window, parent, function()
         return selectedMonster
-    end, function()
-        return drag ~= nil
-    end)
+    end, appearance)
     mapIcons.nearby = nearbyNPCs
     mapIcons.references = referencePins
     mapIcons:BindHover(P, view, input, root, window, parent, function()
         return drag ~= nil
     end)
 
-    mapResize = require("map_resize").new(window, function()
+    mapResize = require("src/ui/map_resize").new(window, function()
+        resizeContents()
         if mapIcons then
             mapIcons:HideHover()
         end
         dirty = true
-    end)
+    end, saveSettings)
     resizeContents()
+    settingsUI:Sync()
     selectArea(activeArea.id, activeArea.id == 28)
     dirty = true
     draw()
     return true
+    end)
 end
 -- Project the current player into the selected map; reject unsupported floor/instance coordinates.
 
@@ -1275,6 +1260,7 @@ Event.Logic.Subscribe("better_world_map_logic", function()
         if settingsUI then
             settingsUI:Sync()
         end
+        if mapResize then mapResize:Update() end
         if mapClickOverride then
             mapClickOverride:Update(window.parent, window, settingsUI and settingsUI.window)
         end
@@ -1424,6 +1410,7 @@ function PluginShutdown()
         nearbyNPCs:Shutdown()
         nearbyNPCs = nil
     end
+    if surfaceTerrain then surfaceTerrain:Shutdown();surfaceTerrain=nil end
     if areaTerrain then
         areaTerrain:Clear()
         areaTerrain = nil
@@ -1436,19 +1423,24 @@ function PluginShutdown()
     Event.Draw.Unsubscribe("better_world_map_nearby_frame")
     Event.Logic.Unsubscribe("better_world_map_logic")
     Event.KeyDown.Unsubscribe("better_world_map_toggle")
+    -- The searchable dropdown owns a sibling overlay outside window.root.
+    if mapSelector then
+        mapSelector:Destroy()
+        mapSelector = nil
+    end
     if window then
         pcall(function()
             window:Destroy()
         end)
     end
     sidebar = nil
+    mapToggles = nil
     resizeSidebar = nil
     lastSidebarHeight = nil
     mapBackground = nil
     window = nil
     referenceLayer = nil
     mapIconLayer = nil
-    sprites = {}
     labels = {}
     labelStyles = {}
     areaTerrain = nil
