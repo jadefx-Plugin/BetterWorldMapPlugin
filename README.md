@@ -1,3 +1,6 @@
+Feel free to do what you want with the code associated with this release, feed it to AI, mess around with it. use code. its all free to everyone, if you want to credit me in your projects for used code go ahead, if not i could care less.
+
+
 # Better World Map
 
 A separate movable map window using terrain images rendered from the local RS3

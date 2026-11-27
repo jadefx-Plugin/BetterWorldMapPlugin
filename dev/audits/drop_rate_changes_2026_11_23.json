@@ -1,0 +1,1436 @@
+{
+  "source": "https://secure.runescape.com/m=news/patch-notes-late-game-rebalance",
+  "effective": "2026-11-23",
+  "retrieved": "2026-11-26",
+  "changes": [
+    {
+      "monsters": [
+        "Ivar, King of Bones"
+      ],
+      "items": [
+        "Ivar's loincloth"
+      ],
+      "rarity": "1/500",
+      "notes": "Base pet chance; threshold 100 kills. "
+    },
+    {
+      "monsters": [
+        "Silverquill, the Dreadhog"
+      ],
+      "items": [
+        "Silverquill's blood-filled cyst"
+      ],
+      "rarity": "1/500",
+      "notes": "Base pet chance; threshold 100 kills. "
+    },
+    {
+      "monsters": [
+        "The Barrows Brothers"
+      ],
+      "items": [
+        "Amulet of the forsaken"
+      ],
+      "rarity": "1/240",
+      "notes": ""
+    },
+    {
+      "monsters": [
+        "The Barrows Brothers"
+      ],
+      "items": [
+        "Barrows chest"
+      ],
+      "rarity": "1/250",
+      "notes": "Player-owned house trophy."
+    },
+    {
+      "monsters": [
+        "Giant Mole"
+      ],
+      "items": [
+        "Rotten fang"
+      ],
+      "rarity": "1/1,000 normal; 1/500 hard",
+      "notes": "Base pet chance; threshold 200 kills. "
+    },
+    {
+      "monsters": [
+        "Giant Mole"
+      ],
+      "items": [
+        "Dragon 2h sword"
+      ],
+      "rarity": "1/64",
+      "notes": "Base chance before luck modifiers."
+    },
+    {
+      "monsters": [
+        "Giant Mole"
+      ],
+      "items": [
+        "Clingy mole"
+      ],
+      "rarity": "1/50",
+      "notes": "Normal and hard modes; base chance."
+    },
+    {
+      "monsters": [
+        "King Black Dragon"
+      ],
+      "items": [
+        "King Black Dragon scale"
+      ],
+      "rarity": "1/1,000",
+      "notes": "Base pet chance; threshold 100 kills. "
+    },
+    {
+      "monsters": [
+        "King Black Dragon"
+      ],
+      "items": [
+        "Draconic visage"
+      ],
+      "rarity": "1/252",
+      "notes": ""
+    },
+    {
+      "monsters": [
+        "King Black Dragon"
+      ],
+      "items": [
+        "Dragon Rider gloves",
+        "Dragon Rider boots"
+      ],
+      "rarity": "1/100",
+      "notes": ""
+    },
+    {
+      "monsters": [
+        "King Black Dragon"
+      ],
+      "items": [
+        "Dragon kite ornament kit (or)",
+        "Dragon kite ornament kit (sp)"
+      ],
+      "rarity": "1/250",
+      "notes": ""
+    },
+    {
+      "monsters": [
+        "King Black Dragon"
+      ],
+      "items": [
+        "Last riders"
+      ],
+      "rarity": "1/250",
+      "notes": "Guaranteed-drop protection also arrives sooner."
+    },
+    {
+      "monsters": [
+        "Queen Black Dragon"
+      ],
+      "items": [
+        "Queen Black Dragon scale"
+      ],
+      "rarity": "1/1,000",
+      "notes": "Base pet chance; threshold 200 kills. "
+    },
+    {
+      "monsters": [
+        "Kalphite Queen",
+        "Exiled Kalphite Queen"
+      ],
+      "items": [
+        "Kalphite egg"
+      ],
+      "rarity": "1/1,000",
+      "notes": "Base pet chance; threshold 200 kills. "
+    },
+    {
+      "monsters": [
+        "Kalphite Queen",
+        "Exiled Kalphite Queen"
+      ],
+      "items": [
+        "Dragon chainbody"
+      ],
+      "rarity": "1/64",
+      "notes": ""
+    },
+    {
+      "monsters": [
+        "Kalphite Queen",
+        "Exiled Kalphite Queen"
+      ],
+      "items": [
+        "Dragon 2h sword"
+      ],
+      "rarity": "1/64",
+      "notes": ""
+    },
+    {
+      "monsters": [
+        "Kalphite King"
+      ],
+      "items": [
+        "Kalphite claw"
+      ],
+      "rarity": "1/1,000",
+      "notes": "Base pet chance; threshold 200 kills. "
+    },
+    {
+      "monsters": [
+        "Dagannoth Rex"
+      ],
+      "items": [
+        "Shrivelled dagannoth claw"
+      ],
+      "rarity": "1/1,500",
+      "notes": "Base pet chance; threshold 900 kills. "
+    },
+    {
+      "monsters": [
+        "Dagannoth Prime"
+      ],
+      "items": [
+        "Dagannoth egg"
+      ],
+      "rarity": "1/1,500",
+      "notes": "Base pet chance; threshold 900 kills. "
+    },
+    {
+      "monsters": [
+        "Dagannoth Supreme"
+      ],
+      "items": [
+        "Dagannoth scale"
+      ],
+      "rarity": "1/1,500",
+      "notes": "Base pet chance; threshold 900 kills. "
+    },
+    {
+      "monsters": [
+        "Corporeal Beast"
+      ],
+      "items": [
+        "Corporeal bone"
+      ],
+      "rarity": "1/2,000",
+      "notes": "Base pet chance; threshold 400 kills. "
+    },
+    {
+      "monsters": [
+        "Orikalka"
+      ],
+      "items": [
+        "Pristine bagrada rex egg"
+      ],
+      "rarity": "1/1,200",
+      "notes": "Base pet chance; threshold 960 kills. "
+    },
+    {
+      "monsters": [
+        "Rathis"
+      ],
+      "items": [
+        "Pristine Corbicula rex egg"
+      ],
+      "rarity": "1/1,200",
+      "notes": "Base pet chance; threshold 960 kills. "
+    },
+    {
+      "monsters": [
+        "Pthentraken"
+      ],
+      "items": [
+        "Pristine pavosaurus rex egg"
+      ],
+      "rarity": "1/1,200",
+      "notes": "Base pet chance; threshold 960 kills. "
+    },
+    {
+      "monsters": [
+        "The Gate of Elidinis"
+      ],
+      "items": [
+        "Fragment of the Gate"
+      ],
+      "rarity": "1/1,000",
+      "notes": "Base pet chance; threshold 200 kills. "
+    },
+    {
+      "monsters": [
+        "The Gate of Elidinis"
+      ],
+      "items": [
+        "Memory dowser",
+        "Runic attuner",
+        "Scripture of Elidinis",
+        "Eclipsed soul prayer codex"
+      ],
+      "rarity": "1/256",
+      "notes": ""
+    },
+    {
+      "monsters": [
+        "The Magister"
+      ],
+      "items": [
+        "Soul fragment"
+      ],
+      "rarity": "1/500",
+      "notes": "Base pet chance; threshold 100 kills. "
+    },
+    {
+      "monsters": [
+        "The Magister"
+      ],
+      "items": [
+        "Phylactery"
+      ],
+      "rarity": "1/10",
+      "notes": ""
+    },
+    {
+      "monsters": [
+        "The Magister"
+      ],
+      "items": [
+        "Gloves of passage"
+      ],
+      "rarity": "1/128",
+      "notes": ""
+    },
+    {
+      "monsters": [
+        "Solak"
+      ],
+      "items": [
+        "Imbued bark shard"
+      ],
+      "rarity": "1/1,000",
+      "notes": "Base pet chance; threshold 200 kills. "
+    },
+    {
+      "monsters": [
+        "Solak"
+      ],
+      "items": [
+        "Blightbound crossbow",
+        "Off-hand blightbound crossbow"
+      ],
+      "rarity": "1/200",
+      "notes": "Per specific crossbow; any crossbow 1/100."
+    },
+    {
+      "monsters": [
+        "Legio Primus"
+      ],
+      "items": [
+        "Ascension signet I"
+      ],
+      "rarity": "1/30",
+      "notes": ""
+    },
+    {
+      "monsters": [
+        "Legio Primus"
+      ],
+      "items": [
+        "Corrupted Ascension signet I"
+      ],
+      "rarity": "1/750",
+      "notes": "Base pet chance; threshold 900 kills. "
+    },
+    {
+      "monsters": [
+        "Legio Secundus"
+      ],
+      "items": [
+        "Ascension signet II"
+      ],
+      "rarity": "1/30",
+      "notes": ""
+    },
+    {
+      "monsters": [
+        "Legio Secundus"
+      ],
+      "items": [
+        "Corrupted Ascension signet II"
+      ],
+      "rarity": "1/750",
+      "notes": "Base pet chance; threshold 900 kills. "
+    },
+    {
+      "monsters": [
+        "Legio Tertius"
+      ],
+      "items": [
+        "Ascension signet III"
+      ],
+      "rarity": "1/30",
+      "notes": ""
+    },
+    {
+      "monsters": [
+        "Legio Tertius"
+      ],
+      "items": [
+        "Corrupted Ascension signet III"
+      ],
+      "rarity": "1/750",
+      "notes": "Base pet chance; threshold 900 kills. "
+    },
+    {
+      "monsters": [
+        "Legio Quartus"
+      ],
+      "items": [
+        "Ascension signet IV"
+      ],
+      "rarity": "1/30",
+      "notes": ""
+    },
+    {
+      "monsters": [
+        "Legio Quartus"
+      ],
+      "items": [
+        "Corrupted Ascension signet IV"
+      ],
+      "rarity": "1/750",
+      "notes": "Base pet chance; threshold 900 kills. "
+    },
+    {
+      "monsters": [
+        "Legio Quintus"
+      ],
+      "items": [
+        "Ascension signet V"
+      ],
+      "rarity": "1/30",
+      "notes": ""
+    },
+    {
+      "monsters": [
+        "Legio Quintus"
+      ],
+      "items": [
+        "Corrupted Ascension signet V"
+      ],
+      "rarity": "1/750",
+      "notes": "Base pet chance; threshold 900 kills. "
+    },
+    {
+      "monsters": [
+        "Legio Sextus"
+      ],
+      "items": [
+        "Ascension signet VI"
+      ],
+      "rarity": "1/30",
+      "notes": ""
+    },
+    {
+      "monsters": [
+        "Legio Sextus"
+      ],
+      "items": [
+        "Corrupted Ascension signet VI"
+      ],
+      "rarity": "1/750",
+      "notes": "Base pet chance; threshold 900 kills. "
+    },
+    {
+      "monsters": [
+        "Vorago"
+      ],
+      "items": [
+        "Ancient summoning stone"
+      ],
+      "rarity": "1/1,000 normal; 1/500 hard",
+      "notes": "Base pet chance; threshold 200 kills. Eligible players roll once per kill, not once per reward pile."
+    },
+    {
+      "monsters": [
+        "Vorago"
+      ],
+      "items": [
+        "Seismic wand",
+        "Seismic singularity"
+      ],
+      "rarity": "1/120 normal; 1/60 hard",
+      "notes": "Per enhanced reward pile; common piles for players 6-10 cannot award Seismics."
+    },
+    {
+      "monsters": [
+        "Vorago"
+      ],
+      "items": [
+        "Bombi"
+      ],
+      "rarity": "1/50",
+      "notes": "Hard mode; each eligible rewarded player, including common-pile recipients."
+    },
+    {
+      "monsters": [
+        "Araxxi"
+      ],
+      "items": [
+        "Araxyte pet"
+      ],
+      "rarity": "1/500",
+      "notes": "Base pet chance; enrage no longer changes this chance."
+    },
+    {
+      "monsters": [
+        "Croesus"
+      ],
+      "items": [
+        "Croesus foultorch",
+        "Croesus sporehammer",
+        "Croesus spore sack",
+        "Scripture of Bik"
+      ],
+      "rarity": "1/2,500",
+      "notes": "Per loot pile."
+    },
+    {
+      "monsters": [
+        "Croesus"
+      ],
+      "items": [
+        "Cryptbloom helm (incomplete)",
+        "Cryptbloom top (incomplete)",
+        "Cryptbloom bottoms (incomplete)",
+        "Cryptbloom gloves (incomplete)",
+        "Cryptbloom boots (incomplete)"
+      ],
+      "rarity": "1/3,000",
+      "notes": "Per loot pile."
+    },
+    {
+      "monsters": [
+        "Croesus"
+      ],
+      "items": [
+        "Croesus's enriched root"
+      ],
+      "rarity": null,
+      "notes": "Pet threshold is now 200 kills; base rate remains contribution-dependent."
+    },
+    {
+      "monsters": [
+        "Kree'arra"
+      ],
+      "items": [
+        "Giant feather"
+      ],
+      "rarity": "1/2,500 normal",
+      "notes": "Base pet chance; threshold 500 kills. "
+    },
+    {
+      "monsters": [
+        "General Graardor"
+      ],
+      "items": [
+        "Decaying tooth"
+      ],
+      "rarity": "1/2,500 normal",
+      "notes": "Base pet chance; threshold 500 kills. "
+    },
+    {
+      "monsters": [
+        "Commander Zilyana"
+      ],
+      "items": [
+        "Auburn lock"
+      ],
+      "rarity": "1/2,500 normal",
+      "notes": "Base pet chance; threshold 500 kills. "
+    },
+    {
+      "monsters": [
+        "K'ril Tsutsaroth"
+      ],
+      "items": [
+        "Severed hoof"
+      ],
+      "rarity": "1/2,500 normal",
+      "notes": "Base pet chance; threshold 500 kills. "
+    },
+    {
+      "monsters": [
+        "Commander Zilyana"
+      ],
+      "items": [
+        "Armadyl crossbow"
+      ],
+      "rarity": "1/320",
+      "notes": "Normal-mode base rate."
+    },
+    {
+      "monsters": [
+        "Kree'arra"
+      ],
+      "items": [
+        "Armadyl helmet",
+        "Armadyl chestplate",
+        "Armadyl chainskirt"
+      ],
+      "rarity": "1/320",
+      "notes": "Normal-mode base rate per armour piece."
+    },
+    {
+      "monsters": [
+        "General Graardor"
+      ],
+      "items": [
+        "Bandos helmet",
+        "Bandos chestplate",
+        "Bandos tassets",
+        "Bandos gloves",
+        "Bandos boots",
+        "Bandos warshield"
+      ],
+      "rarity": "1/320",
+      "notes": "Normal-mode base rate per armour piece."
+    },
+    {
+      "monsters": [
+        "K'ril Tsutsaroth"
+      ],
+      "items": [
+        "Hood of subjugation",
+        "Garb of subjugation",
+        "Gown of subjugation",
+        "Gloves of subjugation",
+        "Boots of subjugation",
+        "Ward of subjugation"
+      ],
+      "rarity": "1/320",
+      "notes": "Normal-mode base rate per armour piece."
+    },
+    {
+      "monsters": [
+        "K'ril Tsutsaroth"
+      ],
+      "items": [
+        "Zamorakian spear"
+      ],
+      "rarity": "1/384",
+      "notes": "Normal-mode base rate."
+    },
+    {
+      "monsters": [
+        "K'ril Tsutsaroth"
+      ],
+      "items": [
+        "Steam battlestaff"
+      ],
+      "rarity": "1/64",
+      "notes": "Normal-mode base rate."
+    },
+    {
+      "monsters": [
+        "Kree'arra"
+      ],
+      "items": [
+        "Armadyl hilt"
+      ],
+      "rarity": "1/384",
+      "notes": "Normal-mode base rate."
+    },
+    {
+      "monsters": [
+        "General Graardor"
+      ],
+      "items": [
+        "Bandos hilt"
+      ],
+      "rarity": "1/384",
+      "notes": "Normal-mode base rate."
+    },
+    {
+      "monsters": [
+        "Commander Zilyana"
+      ],
+      "items": [
+        "Saradomin hilt"
+      ],
+      "rarity": "1/384",
+      "notes": "Normal-mode base rate."
+    },
+    {
+      "monsters": [
+        "K'ril Tsutsaroth"
+      ],
+      "items": [
+        "Zamorak hilt"
+      ],
+      "rarity": "1/384",
+      "notes": "Normal-mode base rate."
+    },
+    {
+      "monsters": [
+        "Nex: Angel of Death"
+      ],
+      "items": [
+        "Blood tentacle"
+      ],
+      "rarity": "1/2,500",
+      "notes": "Base pet chance; threshold 500 kills. "
+    },
+    {
+      "monsters": [
+        "Nex: Angel of Death"
+      ],
+      "items": [
+        "Wand of the praesul",
+        "Imperium core"
+      ],
+      "rarity": "1/85 solo; 1/595 seven-player",
+      "notes": "Base chance; scales with group size. Intermediate group rates are not interpolated."
+    },
+    {
+      "monsters": [
+        "Vindicta and Gorvek"
+      ],
+      "items": [
+        "Crest of Zaros"
+      ],
+      "rarity": "1/128",
+      "notes": "At maximum reputation; reputation/luck modifiers still apply."
+    },
+    {
+      "monsters": [
+        "Helwyr"
+      ],
+      "items": [
+        "Crest of Seren"
+      ],
+      "rarity": "1/128",
+      "notes": "At maximum reputation; reputation/luck modifiers still apply."
+    },
+    {
+      "monsters": [
+        "Gregorovic"
+      ],
+      "items": [
+        "Crest of Sliske"
+      ],
+      "rarity": "1/128",
+      "notes": "At maximum reputation; reputation/luck modifiers still apply."
+    },
+    {
+      "monsters": [
+        "The Twin Furies"
+      ],
+      "items": [
+        "Crest of Zamorak"
+      ],
+      "rarity": "1/128",
+      "notes": "At maximum reputation; reputation/luck modifiers still apply."
+    },
+    {
+      "monsters": [
+        "Devil's snare",
+        "Luminous snaggler",
+        "Lampenflora"
+      ],
+      "items": [
+        "Blast diffusion boots"
+      ],
+      "rarity": "1/512 on task; 1/1,024 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Liverworts"
+      ],
+      "items": [
+        "Blast diffusion boots"
+      ],
+      "rarity": "1/256 on task; 1/512 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Feral dinosaur",
+        "Venomous dinosaur"
+      ],
+      "items": [
+        "Laceration boots",
+        "Bone blowpipe",
+        "Blowpipe chitin",
+        "Blowpipe feather",
+        "Blowpipe fins"
+      ],
+      "rarity": "1/512 on task; 1/2,048 off task",
+      "notes": "Base rates; Slayer-task status matters. Blowpipe parts first prioritise missing parts: base, chitin, feather, fins; then random."
+    },
+    {
+      "monsters": [
+        "Brutish dinosaur",
+        "Ripper dinosaur"
+      ],
+      "items": [
+        "Laceration boots",
+        "Bone blowpipe",
+        "Blowpipe chitin",
+        "Blowpipe feather",
+        "Blowpipe fins"
+      ],
+      "rarity": "1/256 on task; 1/1,024 off task",
+      "notes": "Base rates; Slayer-task status matters. Blowpipe parts first prioritise missing parts: base, chitin, feather, fins; then random."
+    },
+    {
+      "monsters": [
+        "Wyvern"
+      ],
+      "items": [
+        "Wyvern crossbow"
+      ],
+      "rarity": "1/512 on task; 1/2,048 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Camel Warrior"
+      ],
+      "items": [
+        "Camel staff"
+      ],
+      "rarity": "1/512 on task; 1/2,048 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Ripper Demon"
+      ],
+      "items": [
+        "Ripper claw",
+        "Off-hand ripper claw"
+      ],
+      "rarity": "1/256 on task; 1/5,120 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Wyvern"
+      ],
+      "items": [
+        "Raptor key part"
+      ],
+      "rarity": "1/100",
+      "notes": ""
+    },
+    {
+      "monsters": [
+        "Camel Warrior"
+      ],
+      "items": [
+        "Raptor key part"
+      ],
+      "rarity": "1/100",
+      "notes": ""
+    },
+    {
+      "monsters": [
+        "Ripper Demon"
+      ],
+      "items": [
+        "Raptor key part"
+      ],
+      "rarity": "1/100",
+      "notes": ""
+    },
+    {
+      "monsters": [
+        "Acheron mammoth"
+      ],
+      "items": [
+        "Raptor key part"
+      ],
+      "rarity": "1/100",
+      "notes": ""
+    },
+    {
+      "monsters": [
+        "Ice strykewyrm"
+      ],
+      "items": [
+        "Staff of light"
+      ],
+      "rarity": "1/256 on task; 1/1,024 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Lava strykewyrm"
+      ],
+      "items": [
+        "Wyrm spike",
+        "Wyrm heart",
+        "Wyrm scalp"
+      ],
+      "rarity": "1/256 on task; 1/1,280 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Automaton guardian"
+      ],
+      "items": [
+        "Static gloves"
+      ],
+      "rarity": "1/512 on task; 1/1,024 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Automaton tracer"
+      ],
+      "items": [
+        "Pneumatic gloves"
+      ],
+      "rarity": "1/512 on task; 1/1,024 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Automaton generator"
+      ],
+      "items": [
+        "Tracking gloves"
+      ],
+      "rarity": "1/512 on task; 1/1,024 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Aquanite"
+      ],
+      "items": [
+        "Amulet of ranging"
+      ],
+      "rarity": "1/256 on task; 1/1,024 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Cave horror"
+      ],
+      "items": [
+        "Black mask"
+      ],
+      "rarity": "1/256 on task; 1/512 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Unspeakable horror"
+      ],
+      "items": [
+        "Black mask"
+      ],
+      "rarity": "1/128 on task; 1/512 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Dragonstone dragon"
+      ],
+      "items": [
+        "Gemstone gauntlets",
+        "Gemstone boots"
+      ],
+      "rarity": "1/1,000 on task",
+      "notes": "Off-task rate unchanged; see other variants."
+    },
+    {
+      "monsters": [
+        "Onyx dragon"
+      ],
+      "items": [
+        "Gemstone helm",
+        "Gemstone greaves"
+      ],
+      "rarity": "1/850 on task",
+      "notes": "Off-task rate unchanged; see other variants."
+    },
+    {
+      "monsters": [
+        "Onyx dragon",
+        "Hydrix dragon"
+      ],
+      "items": [
+        "Draconic visage"
+      ],
+      "rarity": "1/1,024 on task; 1/2,048 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Onyx dragon"
+      ],
+      "items": [
+        "Onyx"
+      ],
+      "rarity": "1/1,024 on task",
+      "notes": "Off-task rate unchanged."
+    },
+    {
+      "monsters": [
+        "Hydrix dragon"
+      ],
+      "items": [
+        "Gemstone hauberk"
+      ],
+      "rarity": "1/750 on task",
+      "notes": "Off-task rate unchanged."
+    },
+    {
+      "monsters": [
+        "Abyssal demon"
+      ],
+      "items": [
+        "Abyssal whip"
+      ],
+      "rarity": "1/512 on task; 1/1,024 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Abyssal demon"
+      ],
+      "items": [
+        "Abyssal wand",
+        "Abyssal orb"
+      ],
+      "rarity": "1/2,048 on task; 1/6,104 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Nightmare"
+      ],
+      "items": [
+        "Nightmare gauntlets"
+      ],
+      "rarity": "1/1,024 on task; 1/4,096 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Dark beast"
+      ],
+      "items": [
+        "Dark bow"
+      ],
+      "rarity": "1/512 on task; 1/1,024 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Gargoyle"
+      ],
+      "items": [
+        "Granite maul"
+      ],
+      "rarity": "1/256 on task; 1/512 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Airut"
+      ],
+      "items": [
+        "Tuska's Wrath ability codex"
+      ],
+      "rarity": "1/256 on task; 1/1,000 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Airut"
+      ],
+      "items": [
+        "Razorback gauntlets"
+      ],
+      "rarity": "1/256 on task; 1/2,048 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Mutated jadinko guard"
+      ],
+      "items": [
+        "Whip vine"
+      ],
+      "rarity": "1/1,024 on task; 1/2,048 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Mutated jadinko male"
+      ],
+      "items": [
+        "Whip vine"
+      ],
+      "rarity": "1/256 on task; 1/512 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Corrupted scorpion"
+      ],
+      "items": [
+        "Khopesh of the Kharidian"
+      ],
+      "rarity": "1/9,000 on task; 1/15,000 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Corrupted scorpion"
+      ],
+      "items": [
+        "Corrupted gem"
+      ],
+      "rarity": "1/6,000 on task",
+      "notes": "Slayer tasks only."
+    },
+    {
+      "monsters": [
+        "Corrupted scarab"
+      ],
+      "items": [
+        "Khopesh of the Kharidian"
+      ],
+      "rarity": "1/7,500 on task; 1/15,000 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Corrupted scarab"
+      ],
+      "items": [
+        "Corrupted gem"
+      ],
+      "rarity": "1/5,000 on task",
+      "notes": "Slayer tasks only."
+    },
+    {
+      "monsters": [
+        "Corrupted lizard"
+      ],
+      "items": [
+        "Khopesh of the Kharidian"
+      ],
+      "rarity": "1/6,000 on task; 1/15,000 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Corrupted lizard"
+      ],
+      "items": [
+        "Corrupted gem"
+      ],
+      "rarity": "1/4,000 on task",
+      "notes": "Slayer tasks only."
+    },
+    {
+      "monsters": [
+        "Corrupted dust devil"
+      ],
+      "items": [
+        "Khopesh of the Kharidian"
+      ],
+      "rarity": "1/4,500 on task; 1/15,000 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Corrupted dust devil"
+      ],
+      "items": [
+        "Corrupted gem"
+      ],
+      "rarity": "1/3,000 on task",
+      "notes": "Slayer tasks only."
+    },
+    {
+      "monsters": [
+        "Corrupted kalphite marauder"
+      ],
+      "items": [
+        "Khopesh of the Kharidian"
+      ],
+      "rarity": "1/3,000 on task; 1/15,000 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Corrupted kalphite marauder"
+      ],
+      "items": [
+        "Corrupted gem"
+      ],
+      "rarity": "1/2,000 on task",
+      "notes": "Slayer tasks only."
+    },
+    {
+      "monsters": [
+        "Corrupted worker"
+      ],
+      "items": [
+        "Khopesh of the Kharidian"
+      ],
+      "rarity": "1/1,250 on task; 1/15,000 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Corrupted worker"
+      ],
+      "items": [
+        "Corrupted gem"
+      ],
+      "rarity": "1/1,000 on task",
+      "notes": "Slayer tasks only."
+    },
+    {
+      "monsters": [
+        "Salawa akh"
+      ],
+      "items": [
+        "Khopesh of the Kharidian"
+      ],
+      "rarity": "1/1,000 on task; 1/5,000 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Salawa akh"
+      ],
+      "items": [
+        "Corrupted gem"
+      ],
+      "rarity": "1/900 on task",
+      "notes": "Slayer tasks only."
+    },
+    {
+      "monsters": [
+        "Feline akh"
+      ],
+      "items": [
+        "Khopesh of the Kharidian"
+      ],
+      "rarity": "1/900 on task; 1/5,000 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Feline akh"
+      ],
+      "items": [
+        "Corrupted gem"
+      ],
+      "rarity": "1/900 on task",
+      "notes": "Slayer tasks only."
+    },
+    {
+      "monsters": [
+        "Scarab akh"
+      ],
+      "items": [
+        "Khopesh of the Kharidian"
+      ],
+      "rarity": "1/800 on task; 1/5,000 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Scarab akh"
+      ],
+      "items": [
+        "Corrupted gem"
+      ],
+      "rarity": "1/800 on task",
+      "notes": "Slayer tasks only."
+    },
+    {
+      "monsters": [
+        "Crocodile akh"
+      ],
+      "items": [
+        "Khopesh of the Kharidian"
+      ],
+      "rarity": "1/700 on task; 1/5,000 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Crocodile akh"
+      ],
+      "items": [
+        "Corrupted gem"
+      ],
+      "rarity": "1/700 on task",
+      "notes": "Slayer tasks only."
+    },
+    {
+      "monsters": [
+        "Gorilla akh"
+      ],
+      "items": [
+        "Khopesh of the Kharidian"
+      ],
+      "rarity": "1/600 on task; 1/5,000 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Gorilla akh"
+      ],
+      "items": [
+        "Corrupted gem"
+      ],
+      "rarity": "1/600 on task",
+      "notes": "Slayer tasks only."
+    },
+    {
+      "monsters": [
+        "Imperial mage akh"
+      ],
+      "items": [
+        "Khopesh of the Kharidian"
+      ],
+      "rarity": "1/500 on task; 1/5,000 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Imperial mage akh"
+      ],
+      "items": [
+        "Corrupted gem"
+      ],
+      "rarity": "1/500 on task",
+      "notes": "Slayer tasks only."
+    },
+    {
+      "monsters": [
+        "Imperial ranger akh"
+      ],
+      "items": [
+        "Khopesh of the Kharidian"
+      ],
+      "rarity": "1/500 on task; 1/5,000 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Imperial ranger akh"
+      ],
+      "items": [
+        "Corrupted gem"
+      ],
+      "rarity": "1/500 on task",
+      "notes": "Slayer tasks only."
+    },
+    {
+      "monsters": [
+        "Imperial warrior akh"
+      ],
+      "items": [
+        "Khopesh of the Kharidian"
+      ],
+      "rarity": "1/500 on task; 1/5,000 off task",
+      "notes": "Base rates; Slayer-task status matters. "
+    },
+    {
+      "monsters": [
+        "Imperial warrior akh"
+      ],
+      "items": [
+        "Corrupted gem"
+      ],
+      "rarity": "1/500 on task",
+      "notes": "Slayer tasks only."
+    },
+    {
+      "monsters": [
+        "Rorarius"
+      ],
+      "items": [
+        "Ascension grips"
+      ],
+      "rarity": "1/2,056 on task",
+      "notes": "Off-task rate unchanged."
+    },
+    {
+      "monsters": [
+        "Gladius"
+      ],
+      "items": [
+        "Ascension grips"
+      ],
+      "rarity": "1/1,992 on task",
+      "notes": "Off-task rate unchanged."
+    },
+    {
+      "monsters": [
+        "Capsarius"
+      ],
+      "items": [
+        "Ascension grips"
+      ],
+      "rarity": "1/1,024 on task",
+      "notes": "Off-task rate unchanged."
+    },
+    {
+      "monsters": [
+        "Scutarius"
+      ],
+      "items": [
+        "Ascension grips"
+      ],
+      "rarity": "1/500 on task",
+      "notes": "Off-task rate unchanged."
+    },
+    {
+      "monsters": [
+        "Oculi apoterrasaur"
+      ],
+      "items": [
+        "Tribal fin"
+      ],
+      "rarity": "1/256 single encounter",
+      "notes": "Double/triple Big Game Hunter encounter rates unchanged."
+    },
+    {
+      "monsters": [
+        "Malletops"
+      ],
+      "items": [
+        "Volcanic fragments"
+      ],
+      "rarity": "1/256 single encounter",
+      "notes": "Double/triple Big Game Hunter encounter rates unchanged."
+    },
+    {
+      "monsters": [
+        "Pavosaurus rex"
+      ],
+      "items": [
+        "Superior long bone"
+      ],
+      "rarity": "1/256 single encounter",
+      "notes": "Double/triple Big Game Hunter encounter rates unchanged."
+    }
+  ]
+}

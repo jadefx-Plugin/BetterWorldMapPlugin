@@ -1,0 +1,43 @@
+{
+  "method": "BWM chroma-weighted hue with averaged saturation/lightness over cached terrain underlays",
+  "radius": 5,
+  "tiles": [
+    {
+      "key": "c_12_10",
+      "changed": 150329,
+      "preserved": 226872
+    },
+    {
+      "key": "c_13_10",
+      "changed": 121107,
+      "preserved": 18445
+    },
+    {
+      "key": "c_12_11",
+      "changed": 686296,
+      "preserved": 79752
+    },
+    {
+      "key": "c_13_11",
+      "changed": 472121,
+      "preserved": 83911
+    },
+    {
+      "key": "c_12_12",
+      "changed": 631221,
+      "preserved": 157073
+    },
+    {
+      "key": "c_13_12",
+      "changed": 598325,
+      "preserved": 139794
+    },
+    {
+      "key": "c_14_12",
+      "changed": 61802,
+      "preserved": 67189
+    }
+  ],
+  "pixelsChanged": 2721201,
+  "pixelsPreserved": 773036
+}

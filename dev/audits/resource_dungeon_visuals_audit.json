@@ -1,0 +1,16 @@
+{
+  "dungeons": 22,
+  "miningWoodcuttingRows": 15,
+  "teleportRows": 63,
+  "unresolvedResourceIcons": [
+    {
+      "dungeon": "Al Kharid resource dungeon",
+      "resource": "implings"
+    }
+  ],
+  "teleportItemIDs": {
+    "Dungeoneering cape": 18508,
+    "Dungeoneering master cape": 19709,
+    "Hoardstalker ring (8)": 28581
+  }
+}

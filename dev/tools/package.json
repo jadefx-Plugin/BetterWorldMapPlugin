@@ -1,0 +1,12 @@
+{
+  "name": "better-world-map-terrain-builder",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Original local terrain atlas builder for Better World Map",
+  "scripts": {
+    "build": "node build_terrain.cjs ../.."
+  },
+  "dependencies": {
+    "sharp": "0.35.5"
+  }
+}

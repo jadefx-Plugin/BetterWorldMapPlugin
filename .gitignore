@@ -1,0 +1,17 @@
+# Generated caches, dependencies and packaged releases
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+*.zip
+*.zip.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Original image exports stay local; active artwork remains under resources/.
+/dev/archive/resources/
+
+# Separate empty repositories created locally; do not embed repositories here.
+/BWM 1.2.0.0/
+/BWMS/

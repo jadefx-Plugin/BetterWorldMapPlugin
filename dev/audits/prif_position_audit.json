@@ -1,0 +1,677 @@
+{
+  "version": "0.12.6",
+  "auditedOriginalCityMethods": 45,
+  "cityMethodsAfterSplittingDistinctArrivals": 50,
+  "methodsMatchingPublishedTeleportMapCoordinates": 47,
+  "nativeHubAreaAnchorsWithoutPublishedArrival": 3,
+  "unrelatedMarkersUnchanged": 531,
+  "movedOriginalMarkers": 42,
+  "addedDistinctArrivalMarkers": 5,
+  "changes": [
+    {
+      "index": 100,
+      "method": "Slayer cape",
+      "destination": "Morvran",
+      "old": [
+        2196,
+        3338
+      ],
+      "new": [
+        2194,
+        3327
+      ],
+      "distanceTiles": 11.18,
+      "source": "https://runescape.wiki/w/Slayer_cape"
+    },
+    {
+      "index": 121,
+      "method": "Dungeoneering cape",
+      "destination": "Gorajo Hoardstalker Dungeon",
+      "old": [
+        2243,
+        3308
+      ],
+      "new": [
+        2236,
+        3423
+      ],
+      "distanceTiles": 115.21,
+      "source": "https://runescape.wiki/w/Template:Dungeoneering_cape_teleports"
+    },
+    {
+      "index": 122,
+      "method": "Dungeoneering cape",
+      "destination": "Edimmu resource dungeon",
+      "old": [
+        2215,
+        3380
+      ],
+      "new": [
+        2236,
+        3396
+      ],
+      "distanceTiles": 26.4,
+      "source": "https://runescape.wiki/w/Template:Dungeoneering_cape_teleports"
+    },
+    {
+      "index": 145,
+      "method": "Ferocious ring",
+      "destination": "Morvran",
+      "old": [
+        2196,
+        3338
+      ],
+      "new": [
+        2194,
+        3327
+      ],
+      "distanceTiles": 11.18,
+      "source": "https://runescape.wiki/w/Ferocious_ring"
+    },
+    {
+      "index": 169,
+      "method": "Tirannwn quiver",
+      "destination": "Eluned / Islwyn - Ithell",
+      "old": [
+        2150,
+        3330
+      ],
+      "new": [
+        2174,
+        3351
+      ],
+      "distanceTiles": 31.89,
+      "source": "https://runescape.wiki/w/Tirannwn_quiver_4"
+    },
+    {
+      "index": 175,
+      "method": "Tirannwn quiver",
+      "destination": "Harmony pillars - Meilyr",
+      "old": [
+        2266,
+        3434
+      ],
+      "new": [
+        2221,
+        3399
+      ],
+      "distanceTiles": 57.01,
+      "source": "https://runescape.wiki/w/Tirannwn_quiver_4"
+    },
+    {
+      "index": 204,
+      "method": "Max cape",
+      "destination": "Max Guild garden",
+      "old": [
+        2275,
+        3313
+      ],
+      "new": [
+        2276,
+        3327
+      ],
+      "distanceTiles": 14.04,
+      "source": "https://runescape.wiki/w/Max_guild_Teleport"
+    },
+    {
+      "index": 208,
+      "method": "Crystal teleport seed",
+      "destination": "Iorwerth",
+      "old": [
+        2154,
+        3286
+      ],
+      "new": [
+        2186,
+        3312
+      ],
+      "distanceTiles": 41.23,
+      "source": "https://runescape.wiki/w/Crystal_teleport_seed"
+    },
+    {
+      "index": 209,
+      "method": "Crystal teleport seed",
+      "destination": "Ithell",
+      "old": [
+        2150,
+        3330
+      ],
+      "new": [
+        2157,
+        3340
+      ],
+      "distanceTiles": 12.21,
+      "source": "https://runescape.wiki/w/Crystal_teleport_seed"
+    },
+    {
+      "index": 210,
+      "method": "Crystal teleport seed",
+      "destination": "Cadarn",
+      "old": [
+        2266,
+        3330
+      ],
+      "new": [
+        2261,
+        3339
+      ],
+      "distanceTiles": 10.3,
+      "source": "https://runescape.wiki/w/Crystal_teleport_seed"
+    },
+    {
+      "index": 211,
+      "method": "Crystal teleport seed",
+      "destination": "Amlodd",
+      "old": [
+        2150,
+        3382
+      ],
+      "new": [
+        2157,
+        3382
+      ],
+      "distanceTiles": 7.0,
+      "source": "https://runescape.wiki/w/Crystal_teleport_seed"
+    },
+    {
+      "index": 212,
+      "method": "Crystal teleport seed",
+      "destination": "Trahaearn",
+      "old": [
+        2265,
+        3286
+      ],
+      "new": [
+        2231,
+        3312
+      ],
+      "distanceTiles": 42.8,
+      "source": "https://runescape.wiki/w/Crystal_teleport_seed"
+    },
+    {
+      "index": 213,
+      "method": "Crystal teleport seed",
+      "destination": "Hefin",
+      "old": [
+        2150,
+        3435
+      ],
+      "new": [
+        2185,
+        3410
+      ],
+      "distanceTiles": 43.01,
+      "source": "https://runescape.wiki/w/Crystal_teleport_seed"
+    },
+    {
+      "index": 214,
+      "method": "Crystal teleport seed",
+      "destination": "Crwys",
+      "old": [
+        2267,
+        3383
+      ],
+      "new": [
+        2263,
+        3384
+      ],
+      "distanceTiles": 4.12,
+      "source": "https://runescape.wiki/w/Crystal_teleport_seed"
+    },
+    {
+      "index": 215,
+      "method": "Crystal teleport seed",
+      "destination": "Meilyr",
+      "old": [
+        2266,
+        3434
+      ],
+      "new": [
+        2232,
+        3410
+      ],
+      "distanceTiles": 41.62,
+      "source": "https://runescape.wiki/w/Crystal_teleport_seed"
+    },
+    {
+      "index": 223,
+      "method": "Waterfall fishing teleport",
+      "destination": "Waterfall fishing",
+      "old": [
+        2237,
+        3410
+      ],
+      "new": [
+        2290,
+        3408
+      ],
+      "distanceTiles": 53.04,
+      "source": "https://runescape.wiki/w/Waterfall_fishing_teleport"
+    },
+    {
+      "index": 301,
+      "method": "Master constructor's outfit",
+      "destination": "Prifddinas portal",
+      "old": [
+        2168,
+        3334
+      ],
+      "new": [
+        2166,
+        3336
+      ],
+      "distanceTiles": 2.83,
+      "source": "https://runescape.wiki/w/Master_constructor%27s_outfit"
+    },
+    {
+      "index": 306,
+      "method": "Master constructor's outfit",
+      "destination": "Prifddinas estate agent",
+      "old": [
+        2208,
+        3360
+      ],
+      "new": [
+        2166,
+        3337
+      ],
+      "distanceTiles": 47.89,
+      "source": "https://runescape.wiki/w/Master_constructor%27s_outfit"
+    },
+    {
+      "index": 311,
+      "method": "Master camouflage outfit",
+      "destination": "Iorwerth",
+      "old": [
+        2154,
+        3286
+      ],
+      "new": [
+        2186,
+        3312
+      ],
+      "distanceTiles": 41.23,
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 312,
+      "method": "Master camouflage outfit",
+      "destination": "Ithell",
+      "old": [
+        2150,
+        3330
+      ],
+      "new": [
+        2157,
+        3340
+      ],
+      "distanceTiles": 12.21,
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 313,
+      "method": "Master camouflage outfit",
+      "destination": "Cadarn",
+      "old": [
+        2266,
+        3330
+      ],
+      "new": [
+        2261,
+        3339
+      ],
+      "distanceTiles": 10.3,
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 314,
+      "method": "Master camouflage outfit",
+      "destination": "Amlodd",
+      "old": [
+        2150,
+        3382
+      ],
+      "new": [
+        2157,
+        3382
+      ],
+      "distanceTiles": 7.0,
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 315,
+      "method": "Master camouflage outfit",
+      "destination": "Trahaearn",
+      "old": [
+        2265,
+        3286
+      ],
+      "new": [
+        2231,
+        3312
+      ],
+      "distanceTiles": 42.8,
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 316,
+      "method": "Master camouflage outfit",
+      "destination": "Hefin",
+      "old": [
+        2150,
+        3435
+      ],
+      "new": [
+        2185,
+        3410
+      ],
+      "distanceTiles": 43.01,
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 317,
+      "method": "Master camouflage outfit",
+      "destination": "Crwys",
+      "old": [
+        2267,
+        3383
+      ],
+      "new": [
+        2263,
+        3384
+      ],
+      "distanceTiles": 4.12,
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 318,
+      "method": "Master camouflage outfit",
+      "destination": "Meilyr",
+      "old": [
+        2266,
+        3434
+      ],
+      "new": [
+        2232,
+        3410
+      ],
+      "distanceTiles": 41.62,
+      "source": "https://runescape.wiki/w/Master_camouflage_outfit"
+    },
+    {
+      "index": 391,
+      "method": "Nature's sentinel outfit",
+      "destination": "Yew trees - Crwys",
+      "old": [
+        2267,
+        3383
+      ],
+      "new": [
+        2263,
+        3384
+      ],
+      "distanceTiles": 4.12,
+      "source": "https://runescape.wiki/w/Nature%27s_sentinel_outfit"
+    },
+    {
+      "index": 522,
+      "method": "Hoardstalker ring",
+      "destination": "Gorajo Hoardstalker Dungeon",
+      "old": [
+        2243,
+        3308
+      ],
+      "new": [
+        2236,
+        3423
+      ],
+      "distanceTiles": 115.21,
+      "source": "https://runescape.wiki/w/Template:Dungeoneering_cape_teleports"
+    },
+    {
+      "index": 523,
+      "method": "Hoardstalker ring",
+      "destination": "Edimmu resource dungeon",
+      "old": [
+        2215,
+        3380
+      ],
+      "new": [
+        2236,
+        3396
+      ],
+      "distanceTiles": 26.4,
+      "source": "https://runescape.wiki/w/Template:Dungeoneering_cape_teleports"
+    },
+    {
+      "index": 533,
+      "method": "Prifddinas tablet",
+      "destination": "Prifddinas portal",
+      "old": [
+        2168,
+        3334
+      ],
+      "new": [
+        2166,
+        3336
+      ],
+      "distanceTiles": 2.83,
+      "source": "https://runescape.wiki/w/Prifddinas_tablet"
+    },
+    {
+      "index": 555,
+      "method": "Max guild Teleport",
+      "destination": "Max Guild garden",
+      "old": [
+        2275,
+        3313
+      ],
+      "new": [
+        2276,
+        3327
+      ],
+      "distanceTiles": 14.04,
+      "source": "https://runescape.wiki/w/Max_guild_Teleport"
+    },
+    {
+      "index": 563,
+      "method": "Attuned crystal teleport seed",
+      "destination": "Iorwerth",
+      "old": [
+        2154,
+        3286
+      ],
+      "new": [
+        2186,
+        3312
+      ],
+      "distanceTiles": 41.23,
+      "source": "https://runescape.wiki/w/Crystal_teleport_seed"
+    },
+    {
+      "index": 564,
+      "method": "Attuned crystal teleport seed",
+      "destination": "Ithell",
+      "old": [
+        2150,
+        3330
+      ],
+      "new": [
+        2157,
+        3340
+      ],
+      "distanceTiles": 12.21,
+      "source": "https://runescape.wiki/w/Crystal_teleport_seed"
+    },
+    {
+      "index": 565,
+      "method": "Attuned crystal teleport seed",
+      "destination": "Cadarn",
+      "old": [
+        2266,
+        3330
+      ],
+      "new": [
+        2261,
+        3339
+      ],
+      "distanceTiles": 10.3,
+      "source": "https://runescape.wiki/w/Crystal_teleport_seed"
+    },
+    {
+      "index": 566,
+      "method": "Attuned crystal teleport seed",
+      "destination": "Amlodd",
+      "old": [
+        2150,
+        3382
+      ],
+      "new": [
+        2157,
+        3382
+      ],
+      "distanceTiles": 7.0,
+      "source": "https://runescape.wiki/w/Crystal_teleport_seed"
+    },
+    {
+      "index": 567,
+      "method": "Attuned crystal teleport seed",
+      "destination": "Trahaearn",
+      "old": [
+        2265,
+        3286
+      ],
+      "new": [
+        2231,
+        3312
+      ],
+      "distanceTiles": 42.8,
+      "source": "https://runescape.wiki/w/Crystal_teleport_seed"
+    },
+    {
+      "index": 568,
+      "method": "Attuned crystal teleport seed",
+      "destination": "Hefin",
+      "old": [
+        2150,
+        3435
+      ],
+      "new": [
+        2185,
+        3410
+      ],
+      "distanceTiles": 43.01,
+      "source": "https://runescape.wiki/w/Crystal_teleport_seed"
+    },
+    {
+      "index": 569,
+      "method": "Attuned crystal teleport seed",
+      "destination": "Crwys",
+      "old": [
+        2267,
+        3383
+      ],
+      "new": [
+        2263,
+        3384
+      ],
+      "distanceTiles": 4.12,
+      "source": "https://runescape.wiki/w/Crystal_teleport_seed"
+    },
+    {
+      "index": 570,
+      "method": "Attuned crystal teleport seed",
+      "destination": "Meilyr",
+      "old": [
+        2266,
+        3434
+      ],
+      "new": [
+        2232,
+        3410
+      ],
+      "distanceTiles": 41.62,
+      "source": "https://runescape.wiki/w/Crystal_teleport_seed"
+    },
+    {
+      "index": 571,
+      "method": "Clan vexillum",
+      "destination": "Tower of Voices clan portal",
+      "old": [
+        2220,
+        3373
+      ],
+      "new": [
+        2219,
+        3373
+      ],
+      "distanceTiles": 1.0,
+      "source": "https://runescape.wiki/w/Clan_vexillum"
+    },
+    {
+      "index": 572,
+      "method": "House Teleport",
+      "destination": "Prifddinas house portal",
+      "old": [
+        2168,
+        3334
+      ],
+      "new": [
+        2166,
+        3336
+      ],
+      "distanceTiles": 2.83,
+      "source": "https://runescape.wiki/w/Master_constructor%27s_outfit"
+    },
+    {
+      "index": 576,
+      "method": "Completionist cape",
+      "destination": "Max Guild garden",
+      "old": [
+        2275,
+        3313
+      ],
+      "new": [
+        2276,
+        3327
+      ],
+      "distanceTiles": 14.04,
+      "source": "https://runescape.wiki/w/Max_guild_Teleport"
+    }
+  ],
+  "districtCoordinatesFromPublishedSeedMaps": {
+    "Amlodd": [
+      2157,
+      3382
+    ],
+    "Cadarn": [
+      2261,
+      3339
+    ],
+    "Crwys": [
+      2263,
+      3384
+    ],
+    "Hefin": [
+      2185,
+      3410
+    ],
+    "Iorwerth": [
+      2186,
+      3312
+    ],
+    "Ithell": [
+      2157,
+      3340
+    ],
+    "Meilyr": [
+      2232,
+      3410
+    ],
+    "Trahaearn": [
+      2231,
+      3312
+    ]
+  },
+  "precision": "Published teleport-map coordinates checked against downloaded source wikitext; not live in-game captures."
+}

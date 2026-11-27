@@ -1,0 +1,9 @@
+{
+  "mapVersion": "1.2.0.0",
+  "prettyUIVersion": "1.3.3",
+  "prettyUIArchiveSHA256": "25295837cee0216f88bd9c2197821e6c7ec039adab6f0256fc3633fc618e5ebe",
+  "nativeHandles": "PrettyUI",
+  "customAllocation": "NewComponent with auto category IDs for leaf controls; inherited content layers",
+  "testFixture": "work/prettyui-1.3.3",
+  "liveClientVisualCheck": "pending user reload"
+}
